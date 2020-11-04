@@ -7,5 +7,5 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 #gem "github-pages", "~> 209", group: :jekyll_plugins
 #gem "jekyll", "~> 3.9.0"
 gem "kramdown-parser-gfm"
-
+gem "jekyll-theme-minimal"
 # gem "rails"
