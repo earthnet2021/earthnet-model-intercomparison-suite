@@ -12,8 +12,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for EarthNet site here. We edit this
   line in _config.yml. It will appear in the document head meta (for
   Google search results) and in our feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://earthnet.io" # the base hostname & protocol for your site
+baseurl: "/earthnet" # the subpath of your site, e.g. /blog
+url: "http://www.earthnet.tech" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
