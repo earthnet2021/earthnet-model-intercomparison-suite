@@ -5,7 +5,7 @@
 <h1 id="earthnet2021-forecasting-high-resolution-earth-multispectral-imagery">EarthNet2021: Forecasting High-Resolution Earth Multispectral Imagery.</h1>
 
 <p>In this repository lives the overarching framework for EarthNet2021. 
-It incorporates as git submodules the ‘Dynamic Landscape Adquisition’ under <code class="highlighter-rouge">src/datasets</code> and ‘Codyn (pytorch)’ and ‘Arcon (tensoflow)’ under <code class="highlighter-rouge">src/models</code>. 
+It incorporates as git submodules the ‘Dynamic Landscape Adquisition’ under <code class="language-plaintext highlighter-rouge">src/datasets</code> and ‘Codyn (pytorch)’ and ‘Arcon (tensoflow)’ under <code class="language-plaintext highlighter-rouge">src/models</code>. 
 It incorporates baseline methods and can spill out all of the plotting and analysis needed for the publication, comparing across models and their ablations, in a end-to-end manner.</p>
 
 <h3 id="vision-for-this-repository-internal">Vision for this repository (Internal)</h3>
@@ -23,34 +23,34 @@ It incorporates baseline methods and can spill out all of the plotting and analy
 <h2 id="setup">Setup</h2>
 
 <ol>
-  <li>Clone the repo: <code class="highlighter-rouge">git clone --recursive git@git.bgc-jena.mpg.de:crequ/earthnet2021.git</code></li>
+  <li>Clone the repo: <code class="language-plaintext highlighter-rouge">git clone --recursive git@git.bgc-jena.mpg.de:crequ/earthnet2021.git</code></li>
 </ol>
 
 <blockquote>
-  <p>Why <code class="highlighter-rouge">recursive</code>? Because we have at least one git submodules for hosting models. This means <strong>you’ll need to run <code class="highlighter-rouge">git submodule update</code> when updating your remote.</strong></p>
+  <p>Why <code class="language-plaintext highlighter-rouge">recursive</code>? Because we have at least one git submodules for hosting models. This means <strong>you’ll need to run <code class="language-plaintext highlighter-rouge">git submodule update</code> when updating your remote.</strong></p>
 </blockquote>
 
 <ol>
   <li>
-    <p>We recommend setting up a docker container using our <a href="Dockerfile">Dockerfile</a>. Run <code class="highlighter-rouge">docker build . --tag earthnet2021:1.0</code></p>
+    <p>We recommend setting up a docker container using our <a href="Dockerfile">Dockerfile</a>. Run <code class="language-plaintext highlighter-rouge">docker build . --tag earthnet2021:1.0</code></p>
   </li>
   <li>
-    <p>Run a Docker container based on the image created. E.g, <code class="highlighter-rouge">docker run -it earthnet2021:1.0</code>. Use <a href="scripts/docker_run.sh">the util</a> to run the container attaching properly all havy directories.</p>
+    <p>Run a Docker container based on the image created. E.g, <code class="language-plaintext highlighter-rouge">docker run -it earthnet2021:1.0</code>. Use <a href="scripts/docker_run.sh">the util</a> to run the container attaching properly all havy directories.</p>
   </li>
   <li>
-    <p>Run JupyterLab <code class="highlighter-rouge">jupyter lab</code> port 8888 is forwarded to the one defined in <a href="scripts/docker_run.sh">docker_run.sh</a></p>
+    <p>Run JupyterLab <code class="language-plaintext highlighter-rouge">jupyter lab</code> port 8888 is forwarded to the one defined in <a href="scripts/docker_run.sh">docker_run.sh</a></p>
   </li>
   <li>
-    <p>You might just start to work on <code class="highlighter-rouge">hostname:8000</code>. However, docker/linux might have some bug that induces Jupyter lab irresponsivness due to port forwarding. Try <code class="highlighter-rouge">ssh -N -f -L localhost:8000:localhost:8000 username@hostname </code></p>
+    <p>You might just start to work on <code class="language-plaintext highlighter-rouge">hostname:8000</code>. However, docker/linux might have some bug that induces Jupyter lab irresponsivness due to port forwarding. Try <code class="language-plaintext highlighter-rouge">ssh -N -f -L localhost:8000:localhost:8000 username@hostname </code></p>
   </li>
 </ol>
 
-<p>Submodules, such as ‘Arcon’ might require to set up a conda environment. If the environment was not created during the Docker build, run <code class="highlighter-rouge">conda create --name ArconSTF36 python=3.6</code>, then activate the environment <code class="highlighter-rouge">source activate ArconSTF36 </code>and install the libraries <code class="highlighter-rouge">pip install -r ./src/models/Arcon/requirements.txt </code>.</p>
+<p>Submodules, such as ‘Arcon’ might require to set up a conda environment. If the environment was not created during the Docker build, run <code class="language-plaintext highlighter-rouge">conda create --name ArconSTF36 python=3.6</code>, then activate the environment <code class="language-plaintext highlighter-rouge">source activate ArconSTF36 </code>and install the libraries <code class="language-plaintext highlighter-rouge">pip install -r ./src/models/Arcon/requirements.txt </code>.</p>
 
 <h2 id="structure">Structure</h2>
 <ul>
   <li>
-    <p><strong>src</strong> contains the submodules for the <code class="highlighter-rouge">datasets</code> and machine learning <code class="highlighter-rouge">models</code> . These are git projects themselves. These repositories live in symbiosis inside EarthNet2021. Development can occur on those submodules in the same way it has been done so far. Recent commits on their Master branch will be updated into EarthNet2021.</p>
+    <p><strong>src</strong> contains the submodules for the <code class="language-plaintext highlighter-rouge">datasets</code> and machine learning <code class="language-plaintext highlighter-rouge">models</code> . These are git projects themselves. These repositories live in symbiosis inside EarthNet2021. Development can occur on those submodules in the same way it has been done so far. Recent commits on their Master branch will be updated into EarthNet2021.</p>
   </li>
   <li>
     <p><strong>sandbox</strong> contains currently under development functions and pipelines. These might exist only as Jupyter Notebooks playground until full integration.</p>
@@ -66,10 +66,10 @@ It incorporates baseline methods and can spill out all of the plotting and analy
 
     <ul>
       <li>
-        <p>data/<strong>temp</strong> contains only temporary files. For example data/temp/checkpoints/ will hold images, gifs and tensorboard logs for models during training. But only those models that make the cut will be moved to <code class="highlighter-rouge">pretrained</code></p>
+        <p>data/<strong>temp</strong> contains only temporary files. For example data/temp/checkpoints/ will hold images, gifs and tensorboard logs for models during training. But only those models that make the cut will be moved to <code class="language-plaintext highlighter-rouge">pretrained</code></p>
       </li>
       <li>
-        <p>data/<strong>outputs</strong> holds <code class="highlighter-rouge">/&lt;model_name&gt;/&lt;experiment_name&gt;/&lt;data_split_name&gt;</code> with  numpy datacubes of the predictions generated over the test set by our trained models. This is the only directory our evaluation pipeline should need to access for inputs.</p>
+        <p>data/<strong>outputs</strong> holds <code class="language-plaintext highlighter-rouge">/&lt;model_name&gt;/&lt;experiment_name&gt;/&lt;data_split_name&gt;</code> with  numpy datacubes of the predictions generated over the test set by our trained models. This is the only directory our evaluation pipeline should need to access for inputs.</p>
       </li>
       <li>
         <p>data/<strong>pretrained</strong> has the weights of fully trained and tested models that make their way into the publication.</p>
@@ -78,36 +78,36 @@ It incorporates baseline methods and can spill out all of the plotting and analy
         <p>data/<strong>results</strong> our evaluation pipeline should store all relevant figures/tables/animations here.</p>
       </li>
       <li>
-        <p>data/<strong>datasets</strong> is the directory where we mount <code class="highlighter-rouge">BGI/scratch/vbenson/Landscapes_dynamics/release</code> (however it will be best to move this content into <code class="highlighter-rouge">scratch/EarthNet2021/data/datasets/</code> for consistency)</p>
+        <p>data/<strong>datasets</strong> is the directory where we mount <code class="language-plaintext highlighter-rouge">BGI/scratch/vbenson/Landscapes_dynamics/release</code> (however it will be best to move this content into <code class="language-plaintext highlighter-rouge">scratch/EarthNet2021/data/datasets/</code> for consistency)</p>
       </li>
     </ul>
   </li>
 </ul>
 
-<p>Ideally, <code class="highlighter-rouge">data/</code> is mounted into the Docker from <code class="highlighter-rouge">BGI/scratch/EarthNet2021/data/</code> . In any case, utils might contain a script to move the subfolders of the heavy <code class="highlighter-rouge">data/</code> between Juba/Luga’s scratch disk and Minerva’s BGI work_2 directory. These heavy folders are included in the .gitignore.</p>
+<p>Ideally, <code class="language-plaintext highlighter-rouge">data/</code> is mounted into the Docker from <code class="language-plaintext highlighter-rouge">BGI/scratch/EarthNet2021/data/</code> . In any case, utils might contain a script to move the subfolders of the heavy <code class="language-plaintext highlighter-rouge">data/</code> between Juba/Luga’s scratch disk and Minerva’s BGI work_2 directory. These heavy folders are included in the .gitignore.</p>
 
 <h2 id="running">Running</h2>
 
 <p>Your main entry point is run.py.</p>
 
-<p><strong>configs/</strong> is the location for the submodules configuration files. Each configuration is saved in a .yml format. It defines how to map the arguments given to <code class="highlighter-rouge">run.py</code> into scripts of each submodules. The config.yml file defines, what script to run, what conda environment, arguments to pass and the experiment_settings.json .</p>
+<p><strong>configs/</strong> is the location for the submodules configuration files. Each configuration is saved in a .yml format. It defines how to map the arguments given to <code class="language-plaintext highlighter-rouge">run.py</code> into scripts of each submodules. The config.yml file defines, what script to run, what conda environment, arguments to pass and the experiment_settings.json .</p>
 
 <h2 id="our-conventions">Our conventions</h2>
-<p>### towards an idillic work as a team 
-The following is not enforced as we are just two, but would be nice to give a try to follow these practices it’s a good oportunity to learn! :D</p>
+<h3 id="towards-an-idillic-work-as-a-team">towards an idillic work as a team</h3>
+<p>The following is not enforced as we are just two, but would be nice to give a try to follow these practices it’s a good oportunity to learn! :D</p>
 
 <ul>
-  <li>Branch names should follow the pattern <code class="highlighter-rouge">&lt;name_description&gt;</code>. For example, Chris developing a new classication algorithm may name his branch <code class="highlighter-rouge">chris_amazing_classifier</code>.</li>
-  <li>Commit messages should be concise and descriptive; <code class="highlighter-rouge">wip</code> should be expanded to <code class="highlighter-rouge">wip - simulated annealing test suite</code>.</li>
+  <li>Branch names should follow the pattern <code class="language-plaintext highlighter-rouge">&lt;name_description&gt;</code>. For example, Chris developing a new classication algorithm may name his branch <code class="language-plaintext highlighter-rouge">chris_amazing_classifier</code>.</li>
+  <li>Commit messages should be concise and descriptive; <code class="language-plaintext highlighter-rouge">wip</code> should be expanded to <code class="language-plaintext highlighter-rouge">wip - simulated annealing test suite</code>.</li>
   <li>“Commit early and commit often” is good practice. Develop with the mindset of consolidated chunks that can each be described as a unique commit.</li>
   <li><strong>Pull requests (PRs)</strong>
     <ul>
-      <li>Before requesting review, organize your commits by squashing them w/ <a href="https://medium.com/@slamflipstrom/a-beginners-guide-to-squashing-commits-with-git-rebase-8185cf6e62ec"><code class="highlighter-rouge">git rebase -i</code></a>. This is good practice for keeping git history tidy, and signficantly aids your reviewers in looking through the PR; five well-named sequential commits are far easier to review than 23 seeming random commits.</li>
-      <li>Push your feature branch to the mainline (should be <code class="highlighter-rouge">origin</code>) and open a PR on the repo homepage.</li>
+      <li>Before requesting review, organize your commits by squashing them w/ <a href="https://medium.com/@slamflipstrom/a-beginners-guide-to-squashing-commits-with-git-rebase-8185cf6e62ec"><code class="language-plaintext highlighter-rouge">git rebase -i</code></a>. This is good practice for keeping git history tidy, and signficantly aids your reviewers in looking through the PR; five well-named sequential commits are far easier to review than 23 seeming random commits.</li>
+      <li>Push your feature branch to the mainline (should be <code class="language-plaintext highlighter-rouge">origin</code>) and open a PR on the repo homepage.</li>
       <li>Give your PR a descriptive title and briefly describe what you’re pushing. If there is useful info to provide the reviewers (e.g. an example noebook to run, a point of entry, or outstanding questions) please include it.</li>
       <li>In the description tag <strong>one teammates for review</strong>. As this is a two person project, it’s pretty obvious who to tag.</li>
       <li>The reviewer will provide thoughtful feedback, and the developer will address their concerns.</li>
-      <li>All PRs must be signed off by the reviewer before merging into <code class="highlighter-rouge">master</code>.</li>
+      <li>All PRs must be signed off by the reviewer before merging into <code class="language-plaintext highlighter-rouge">master</code>.</li>
       <li>See the additional PR info below, and the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow">PR section here</a> for more context.</li>
     </ul>
   </li>
@@ -121,23 +121,25 @@ The following is not enforced as we are just two, but would be nice to give a tr
   <li>Docstring follow the sphinx numpy standard:</li>
 </ul>
 
-<p>```
-def foobar(x):
-    “"”Is this real life or is this just fantasy?</p>
+<div class="language-plaintext highlighter-rouge"><pre class="highlight"><code>def foobar(x):
+    """Is this real life or is this just fantasy?
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Params
-------
-x : int
-    Start index
+    Params
+    ------
+    x : int
+        Start index
 
-Returns
--------
-y : int
-    End index
+    Returns
+    -------
+    y : int
+        End index
 
-""" ``` - When in doubt, default to this [Google Python style guide](http://google.github.io/styleguide/pyguide.html).
+    """
 </code></pre>
 </div>
+<ul>
+  <li>When in doubt, default to this <a href="http://google.github.io/styleguide/pyguide.html">Google Python style guide</a>.</li>
+</ul>
 
 <h2 id="misc">Misc.</h2>
 
