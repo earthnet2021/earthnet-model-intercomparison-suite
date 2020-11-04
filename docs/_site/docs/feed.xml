@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>EarthNet2021</title>
+    <description>Write an awesome description for EarthNet site here. We edit this line in _config.yml. It will appear in the document head meta (for Google search results) and in our feed.xml site description.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Oct 2020 15:13:37 +0100</pubDate>
-    <lastBuildDate>Thu, 29 Oct 2020 15:13:37 +0100</lastBuildDate>
+    <link>http://earthnet.io/</link>
+    <atom:link href="http://earthnet.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 04 Nov 2020 14:27:36 +0100</pubDate>
+    <lastBuildDate>Wed, 04 Nov 2020 14:27:36 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Thu, 29 Oct 2020 14:04:28 +0100</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2020/10/29/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2020/10/29/welcome-to-jekyll.html</guid>
+        <link>http://earthnet.io/jekyll/update/2020/10/29/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://earthnet.io/jekyll/update/2020/10/29/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
