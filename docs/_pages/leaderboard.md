@@ -3,6 +3,7 @@ author_profile: true
 layout: single
 toc: true
 toc_sticky: true
+toc_label: Tracks
 title: Leaderboard
 permalink: /leaderboard/
 ---
