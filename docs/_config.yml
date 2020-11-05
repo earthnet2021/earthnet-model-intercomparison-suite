@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "EarthNet2021"
 title_separator          : "-"
-subtitle                 : "A challenge to forecast localized climate impacts"# site tagline that appears below site title in masthead
+subtitle                 : "A challenge to forecast local climate impacts" # site tagline that appears below site title in masthead
 name                     : "EN-Team"
 description              : > # this means to ignore newlines until "url:"
   EarthNet2021 is a groundbreaking challenge and dataset to 
@@ -28,7 +28,7 @@ url                      : "https://www.earthnet.tech" # the base hostname & pro
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "earthnet2021/earthnet" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/EarthNet2021_Intro_art.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /assets/images/deepart88x88.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -97,7 +97,7 @@ analytics:
 # Site Author
 author:
   name             : "EN-Team"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo-en.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Hybrid ML-ESS team focused on spatio-temporal data driven land surface forecasting."
   location         : "Jena, Germany"
   email            :
@@ -211,7 +211,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: /blog/page:num
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 

@@ -1,6 +1,8 @@
 ---
-layout: page
-title: Data Specs
+layout: single
+toc: true
+toc_sticky: true
+title: Dataset Specifications
 permalink: /specs/
 ---
 

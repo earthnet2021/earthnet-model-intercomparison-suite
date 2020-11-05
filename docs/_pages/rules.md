@@ -1,5 +1,7 @@
 ---
-layout: page
+layout: single
+toc: true
+toc_sticky: true
 title: Rules
 permalink: /rules/
 ---

@@ -1,7 +1,22 @@
 ---
-layout: page
+layout: single
+classes: wide
 title: Download
 permalink: /download/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac blandit augue. Vivamus pulvinar neque lectus, ultricies placerat enim finibus ut. Phasellus vestibulum hendrerit nisi, sed volutpat magna accumsan at. Vestibulum pretium condimentum tincidunt. Quisque nisi dui, vehicula nec accumsan nec, volutpat nec metus. Vestibulum blandit ante id dignissim hendrerit. Phasellus eget turpis vel quam aliquam gravida. Ut cursus rhoncus metus, sit amet convallis ipsum lacinia sit amet. Nullam nec malesuada justo. Duis mauris nunc, efficitur vitae facilisis eget, congue eu neque. Cras facilisis orci quis mauris dignissim scelerisque.
+The EarthNet2021 dataset is free to download and no registration is required. There is 2 ways to download the dataset.
+
+## Direct download from source
+
+Simply follow this link: OWNCLOUD
+
+## Using the EarthNet2021 toolkit
+
+On python import the EarthNet library and use the en.getdataset() function.
+
+```
+import earthnet as en
+
+en.getdataset('pathtodestination')
+```

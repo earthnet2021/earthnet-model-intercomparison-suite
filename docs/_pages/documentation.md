@@ -1,14 +1,7 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: false
-
-layout: page
+layout: single
+toc: true
+toc_sticky: true
 title: Documentation
 permalink: /docs/
 ---

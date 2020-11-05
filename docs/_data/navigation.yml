@@ -8,6 +8,8 @@ main:
     url: /rules/
   - title: "Download"
     url: /download/
+  - title: "Blog"
+    url: /blog/
   - title: "Dataset Specs"
     url: /specs/
   - title: "Documentation"
