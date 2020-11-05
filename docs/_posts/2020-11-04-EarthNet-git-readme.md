@@ -1,4 +1,10 @@
-<center> ![EarthNet2021: Introductory Art](/imgs/EarthNet2021_Intro_art.png) </center>
+---
+layout: post
+title:  "This is a test: GitLab readme"
+date:   2020-11-04 14:04:28 +0100
+categories: testing
+---
+![EarthNet2021: Introductory Art](/assets/images/EarthNet2021_Intro_art.png)
 
 Art generated via neural style transfer over a *blue marble*.
 
