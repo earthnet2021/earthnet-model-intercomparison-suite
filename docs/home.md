@@ -1,8 +1,11 @@
 ---
-layout: single
-title: Home
+layout: splash
 permalink: /
-author_profile: true
+header:
+  overlay_color: "#5e616c"
+  overlay_image: mm-home-page-feature.jpg
+  cta_label: "<i class='fa fa-download'></i> Install Now"
+  cta_url: "/quickstart/"
+  caption:
+excerpt: 'A machine learning challenge and dataset for land surface and localized impact forecasting.<br /> <small><a href="https://github.com/earthnet2021/earthnet/releases/tag/1.0.0">Latest release v1.0.0</a></small><br /><br /> {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=earthnet2021&repo=earthnet&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe><iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=earthnet2021&repo=earthnet&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac blandit augue. Vivamus pulvinar neque lectus, ultricies placerat enim finibus ut. Phasellus vestibulum hendrerit nisi, sed volutpat magna accumsan at. Vestibulum pretium condimentum tincidunt. Quisque nisi dui, vehicula nec accumsan nec, volutpat nec metus. Vestibulum blandit ante id dignissim hendrerit. Phasellus eget turpis vel quam aliquam gravida. Ut cursus rhoncus metus, sit amet convallis ipsum lacinia sit amet. Nullam nec malesuada justo. Duis mauris nunc, efficitur vitae facilisis eget, congue eu neque. Cras facilisis orci quis mauris dignissim scelerisque.

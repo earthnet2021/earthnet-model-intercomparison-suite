@@ -1,6 +1,8 @@
 ---
 layout: posts
 author_profile: true
+toc: true
+toc_sticky: true
 author: crequ
 title:  "This is a test: GitLab readme"
 date:   2020-11-04 14:04:28 +0100

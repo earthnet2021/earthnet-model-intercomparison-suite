@@ -1,4 +1,5 @@
 ---
+author_profile: true
 layout: single
 toc: true
 toc_sticky: true

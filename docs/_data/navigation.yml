@@ -14,5 +14,7 @@ main:
     url: /specs/
   - title: "Documentation"
     url: /docs/
+  - title: "License"
+    url: /license/
   - title: "About"
     url: /about/
