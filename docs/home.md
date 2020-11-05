@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#5e616c"
-  overlay_image: assets/images/en-home-overlay.png
+  overlay_image: /assets/images/en-home-overlay.png
   cta_label: "<i class='fa fa-download'></i> Install Now"
   cta_url: "/quickstart/"
   caption:
