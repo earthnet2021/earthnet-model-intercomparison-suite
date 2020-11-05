@@ -1,0 +1,16 @@
+# main links
+main:
+  - title: "Quick-Start Guide"
+    url: /quickstart/
+  - title: "Leaderboard"
+    url: /leaderboard/
+  - title: "Rules"
+    url: /rules/
+  - title: "Download"
+    url: /download/
+  - title: "Dataset Specs"
+    url: /specs/
+  - title: "Documentation"
+    url: /docs/
+  - title: "About"
+    url: /about/

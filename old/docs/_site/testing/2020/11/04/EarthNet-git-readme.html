@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>This is a test: GitLab readme</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/testing/2020/11/04/EarthNet-git-readme.html">
+  <link rel="alternate" type="application/rss+xml" title="EarthNet2021" href="http://localhost:4000/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">EarthNet2021</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+          <a class="page-link" href="/docs/">Documentation</a>
+          
+        
+          
+          <a class="page-link" href="/download/">Download</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/leaderboard/">Leaderboard</a>
+          
+        
+          
+        
+          
+          <a class="page-link" href="/toolkit/">Toolkit</a>
+          
+        
+          
+          <a class="page-link" href="/rules/">Rules</a>
+          
+        
+          
+          <a class="page-link" href="/specs/">Data Specs</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">This is a test: GitLab readme</h1>
+    <p class="post-meta"><time datetime="2020-11-04T14:04:28+01:00" itemprop="datePublished">Nov 4, 2020</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><img src="/assets/images/EarthNet2021_Intro_art.png" alt="EarthNet2021: Introductory Art" /></p>
+
+<p>Art generated via neural style transfer over a <em>blue marble</em>.</p>
+
+<h1 id="earthnet2021-forecasting-high-resolution-earth-multispectral-imagery">EarthNet2021: Forecasting High-Resolution Earth Multispectral Imagery.</h1>
+
+<p>In this repository lives the overarching framework for EarthNet2021. 
+It incorporates as git submodules the ‘Dynamic Landscape Adquisition’ under <code class="language-plaintext highlighter-rouge">src/datasets</code> and ‘Codyn (pytorch)’ and ‘Arcon (tensoflow)’ under <code class="language-plaintext highlighter-rouge">src/models</code>. 
+It incorporates baseline methods and can spill out all of the plotting and analysis needed for the publication, comparing across models and their ablations, in a end-to-end manner.</p>
+
+<h3 id="vision-for-this-repository-internal">Vision for this repository (Internal)</h3>
+<p>This project is to be released together with the NeurIPS 2020 Workshop Dataset/Challenge paper. For that release, the 2 submodules (Arcon and Codyn) will be detached. However, we’ll keep working here to generate all of the results we need towards the model publication.</p>
+
+<h3 id="resources">Resources</h3>
+
+<ul>
+  <li><a href="https://docs.google.com/document/d/1AQ4Z9R4UOdM2MvQ1eRSkBjwK1LIH4yoVZ1yGYToMC-4/edit">Doc: Papers Structure and TODO lists</a></li>
+  <li><a href="https://sharelatex.gwdg.de/4135679498chkcjrdhsbhx">ShareLatex: EarthNet2021 Paper Draft (NeurIPS 2020 Workshop)</a></li>
+  <li><a href="https://www.climatechange.ai/events/neurips2020">Tackling Climate Change with ML at NeurIPS2020</a></li>
+  <li><a href="https://www.youtube.com/watch?v=prDI7Oy-VMM">How to Webinar Tackling Climate Change with ML at NeurIPS2020</a></li>
+</ul>
+
+<h2 id="setup">Setup</h2>
+
+<ol>
+  <li>Clone the repo: <code class="language-plaintext highlighter-rouge">git clone --recursive git@git.bgc-jena.mpg.de:crequ/earthnet2021.git</code></li>
+</ol>
+
+<blockquote>
+  <p>Why <code class="language-plaintext highlighter-rouge">recursive</code>? Because we have at least one git submodules for hosting models. This means <strong>you’ll need to run <code class="language-plaintext highlighter-rouge">git submodule update</code> when updating your remote.</strong></p>
+</blockquote>
+
+<ol>
+  <li>
+    <p>We recommend setting up a docker container using our <a href="Dockerfile">Dockerfile</a>. Run <code class="language-plaintext highlighter-rouge">docker build . --tag earthnet2021:1.0</code></p>
+  </li>
+  <li>
+    <p>Run a Docker container based on the image created. E.g, <code class="language-plaintext highlighter-rouge">docker run -it earthnet2021:1.0</code>. Use <a href="scripts/docker_run.sh">the util</a> to run the container attaching properly all havy directories.</p>
+  </li>
+  <li>
+    <p>Run JupyterLab <code class="language-plaintext highlighter-rouge">jupyter lab</code> port 8888 is forwarded to the one defined in <a href="scripts/docker_run.sh">docker_run.sh</a></p>
+  </li>
+  <li>
+    <p>You might just start to work on <code class="language-plaintext highlighter-rouge">hostname:8000</code>. However, docker/linux might have some bug that induces Jupyter lab irresponsivness due to port forwarding. Try <code class="language-plaintext highlighter-rouge">ssh -N -f -L localhost:8000:localhost:8000 username@hostname </code></p>
+  </li>
+</ol>
+
+<p>Submodules, such as ‘Arcon’ might require to set up a conda environment. If the environment was not created during the Docker build, run <code class="language-plaintext highlighter-rouge">conda create --name ArconSTF36 python=3.6</code>, then activate the environment <code class="language-plaintext highlighter-rouge">source activate ArconSTF36 </code>and install the libraries <code class="language-plaintext highlighter-rouge">pip install -r ./src/models/Arcon/requirements.txt </code>.</p>
+
+<h2 id="structure">Structure</h2>
+<ul>
+  <li>
+    <p><strong>src</strong> contains the submodules for the <code class="language-plaintext highlighter-rouge">datasets</code> and machine learning <code class="language-plaintext highlighter-rouge">models</code> . These are git projects themselves. These repositories live in symbiosis inside EarthNet2021. Development can occur on those submodules in the same way it has been done so far. Recent commits on their Master branch will be updated into EarthNet2021.</p>
+  </li>
+  <li>
+    <p><strong>sandbox</strong> contains currently under development functions and pipelines. These might exist only as Jupyter Notebooks playground until full integration.</p>
+  </li>
+  <li>
+    <p><strong>utils</strong> is the place for useful functions that provide visualization, evaluation, npz-to-tfrecods, etc.</p>
+  </li>
+  <li>
+    <p><strong>scripts</strong> is the place for miscelaneous scripts to move data between machines, keep the working environment clean, set up the environments, etc.</p>
+  </li>
+  <li>
+    <p><strong>data</strong> is the place for all of the heavy files.</p>
+
+    <ul>
+      <li>
+        <p>data/<strong>temp</strong> contains only temporary files. For example data/temp/checkpoints/ will hold images, gifs and tensorboard logs for models during training. But only those models that make the cut will be moved to <code class="language-plaintext highlighter-rouge">pretrained</code></p>
+      </li>
+      <li>
+        <p>data/<strong>outputs</strong> holds <code class="language-plaintext highlighter-rouge">/&lt;model_name&gt;/&lt;experiment_name&gt;/&lt;data_split_name&gt;</code> with  numpy datacubes of the predictions generated over the test set by our trained models. This is the only directory our evaluation pipeline should need to access for inputs.</p>
+      </li>
+      <li>
+        <p>data/<strong>pretrained</strong> has the weights of fully trained and tested models that make their way into the publication.</p>
+      </li>
+      <li>
+        <p>data/<strong>results</strong> our evaluation pipeline should store all relevant figures/tables/animations here.</p>
+      </li>
+      <li>
+        <p>data/<strong>datasets</strong> is the directory where we mount <code class="language-plaintext highlighter-rouge">BGI/scratch/vbenson/Landscapes_dynamics/release</code> (however it will be best to move this content into <code class="language-plaintext highlighter-rouge">scratch/EarthNet2021/data/datasets/</code> for consistency)</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>Ideally, <code class="language-plaintext highlighter-rouge">data/</code> is mounted into the Docker from <code class="language-plaintext highlighter-rouge">BGI/scratch/EarthNet2021/data/</code> . In any case, utils might contain a script to move the subfolders of the heavy <code class="language-plaintext highlighter-rouge">data/</code> between Juba/Luga’s scratch disk and Minerva’s BGI work_2 directory. These heavy folders are included in the .gitignore.</p>
+
+<h2 id="running">Running</h2>
+
+<p>Your main entry point is run.py.</p>
+
+<p><strong>configs/</strong> is the location for the submodules configuration files. Each configuration is saved in a .yml format. It defines how to map the arguments given to <code class="language-plaintext highlighter-rouge">run.py</code> into scripts of each submodules. The config.yml file defines, what script to run, what conda environment, arguments to pass and the experiment_settings.json .</p>
+
+<h2 id="our-conventions">Our conventions</h2>
+<h3 id="towards-an-idillic-work-as-a-team">towards an idillic work as a team</h3>
+<p>The following is not enforced as we are just two, but would be nice to give a try to follow these practices it’s a good oportunity to learn! :D</p>
+
+<ul>
+  <li>Branch names should follow the pattern <code class="language-plaintext highlighter-rouge">&lt;name_description&gt;</code>. For example, Chris developing a new classication algorithm may name his branch <code class="language-plaintext highlighter-rouge">chris_amazing_classifier</code>.</li>
+  <li>Commit messages should be concise and descriptive; <code class="language-plaintext highlighter-rouge">wip</code> should be expanded to <code class="language-plaintext highlighter-rouge">wip - simulated annealing test suite</code>.</li>
+  <li>“Commit early and commit often” is good practice. Develop with the mindset of consolidated chunks that can each be described as a unique commit.</li>
+  <li><strong>Pull requests (PRs)</strong>
+    <ul>
+      <li>Before requesting review, organize your commits by squashing them w/ <a href="https://medium.com/@slamflipstrom/a-beginners-guide-to-squashing-commits-with-git-rebase-8185cf6e62ec"><code class="language-plaintext highlighter-rouge">git rebase -i</code></a>. This is good practice for keeping git history tidy, and signficantly aids your reviewers in looking through the PR; five well-named sequential commits are far easier to review than 23 seeming random commits.</li>
+      <li>Push your feature branch to the mainline (should be <code class="language-plaintext highlighter-rouge">origin</code>) and open a PR on the repo homepage.</li>
+      <li>Give your PR a descriptive title and briefly describe what you’re pushing. If there is useful info to provide the reviewers (e.g. an example noebook to run, a point of entry, or outstanding questions) please include it.</li>
+      <li>In the description tag <strong>one teammates for review</strong>. As this is a two person project, it’s pretty obvious who to tag.</li>
+      <li>The reviewer will provide thoughtful feedback, and the developer will address their concerns.</li>
+      <li>All PRs must be signed off by the reviewer before merging into <code class="language-plaintext highlighter-rouge">master</code>.</li>
+      <li>See the additional PR info below, and the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow">PR section here</a> for more context.</li>
+    </ul>
+  </li>
+  <li>git submodule update –remote for updating all submodules</li>
+</ul>
+
+<h4 id="code-style">Code style</h4>
+
+<ul>
+  <li>Follow PEP8</li>
+  <li>Docstring follow the sphinx numpy standard:</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def foobar(x):
+    """Is this real life or is this just fantasy?
+
+    Params
+    ------
+    x : int
+        Start index
+
+    Returns
+    -------
+    y : int
+        End index
+
+    """
+</code></pre></div></div>
+<ul>
+  <li>When in doubt, default to this <a href="http://google.github.io/styleguide/pyguide.html">Google Python style guide</a>.</li>
+</ul>
+
+<h2 id="misc">Misc.</h2>
+
+<h3 id="more-on-pull-requests">More on pull requests</h3>
+
+<p>Before each push to the repository, pull request has to be made and sent for review. There are multiple reasons why pull requests are useful. Here are some of them:</p>
+
+<ul>
+  <li>Share the knowledge. With your PR, you are showing to your teammates what is added, for what purpose and how it’s implemented</li>
+  <li>Learn. Maybe you are used to do the things one way. Your teammates can show you how the things can be done the other way</li>
+  <li>Accidental mistakes. There is nothing worse than having stupid typo error in your method or classname, which can then propagate to other modules or classes. Usually additional pair of eyes will catch those</li>
+  <li>Consistency. Some of it may be covered with pre hook commit rules and tools like pylint or similar. However, not all can be caught automatically</li>
+</ul>
+
+<p>Pull request should be reviewed and approved by two engineers other than PR author (this is an ideal case. Our team is too small, so let’s say only one reviews it). Creating and reviewing pull requests should be part of our standard development process. Some general guidelines for pull requests:</p>
+
+<ul>
+  <li>Write small pull requests. If the feature you are working on is quite large, divide it into smaller pull requests so that its easier to review it</li>
+  <li>Commit messages should be short but descriptive. Writing commit messages like “edit” or “change” is really not useful at all</li>
+  <li>Once created, review pull request by yourself first. This can help you identify something that needs to be changed or fixed immediately</li>
+  <li>Add description for your pull request</li>
+  <li>If you want your pull request to be reviewed faster for some reason, don’t hesitate to remind your reviewer.</li>
+  <li>When merging an approved PR make sure to select Squash and merge. That way we will have a clean git history with one commit per PR.</li>
+  <li>Posting pull request link on slack channel can speed up reviewing. Again, have in mind, the shorter your pull request is, less time it will take to review it.</li>
+</ul>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">EarthNet2021</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>EarthNet2021</li>
+          <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/earthnet2021"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">earthnet2021</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>EarthNet2021 is a groundbreaking challenge and dataset to  advance the state of localized climate impact forecasting  using novel artificial intelligence methods.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

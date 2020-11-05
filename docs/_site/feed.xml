@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Nov 2020 01:18:59 +0100</pubDate>
-    <lastBuildDate>Thu, 05 Nov 2020 01:18:59 +0100</lastBuildDate>
+    <pubDate>Thu, 05 Nov 2020 11:29:05 +0100</pubDate>
+    <lastBuildDate>Thu, 05 Nov 2020 11:29:05 +0100</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -181,8 +181,8 @@ It incorporates baseline methods and can spill out all of the plotting and analy
 
 </description>
         <pubDate>Wed, 04 Nov 2020 14:04:28 +0100</pubDate>
-        <link>http://localhost:4000/testing/2020/11/04/EarthNet-git-readme.html</link>
-        <guid isPermaLink="true">http://localhost:4000/testing/2020/11/04/EarthNet-git-readme.html</guid>
+        <link>http://localhost:4000/testing/EarthNet-git-readme/</link>
+        <guid isPermaLink="true">http://localhost:4000/testing/EarthNet-git-readme/</guid>
         
         
         <category>testing</category>
@@ -207,8 +207,8 @@ It incorporates baseline methods and can spill out all of the plotting and analy
 
 </description>
         <pubDate>Thu, 29 Oct 2020 14:04:28 +0100</pubDate>
-        <link>http://localhost:4000/jekyll/update/2020/10/29/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2020/10/29/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/jekyll/update/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
