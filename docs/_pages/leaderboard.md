@@ -3,12 +3,12 @@ author_profile: true
 layout: single
 toc: true
 toc_sticky: true
-toc_label: Tracks
+toc_label: Test Tracks
 title: Leaderboard
 permalink: /leaderboard/
 ---
 
-## Independent and Identically Distributed Test
+## Independent and Identically Distributed
 
 | **Rank** |      **Model Name**      | **Group Name** |   **MAD**  |   **OLS**  |   **EMD**  |  **SSIM**  | **EarthNetScore** |
 |:----:|:--------------------:|:----------:|:------:|:------:|:------:|:------:|:-------------:|
@@ -20,7 +20,7 @@ permalink: /leaderboard/
 
 
 
-## Out-of-Distribution Test
+## Out-of-Distribution
 
 | **Rank** |      **Model Name**      | **Group Name** |   **MAD**  |   **OLS**  |   **EMD**  |  **SSIM**  | **EarthNetScore** |
 |:----:|:--------------------:|:----------:|:------:|:------:|:------:|:------:|:-------------:|
@@ -31,7 +31,7 @@ permalink: /leaderboard/
 
 
 
-## Extreme Weather Test
+## Extreme Weather
 
 | **Rank** |      **Model Name**      | **Group Name** |   **MAD**  |   **OLS**  |   **EMD**  |  **SSIM**  | **EarthNetScore** |
 |:----:|:--------------------:|:----------:|:------:|:------:|:------:|:------:|:-------------:|
@@ -43,7 +43,7 @@ permalink: /leaderboard/
 
 
 
-## Full Seasonal Cycle Test
+## Full Seasonal Cycle
 
 | **Rank** |      **Model Name**      | **Group Name** |   **MAD**  |   **OLS**  |   **EMD**  |  **SSIM**  | **EarthNetScore** |
 |:----:|:--------------------:|:----------:|:------:|:------:|:------:|:------:|:-------------:|

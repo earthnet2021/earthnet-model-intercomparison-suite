@@ -1,20 +1,63 @@
 # main links
 main:
   - title: "Quick-Start Guide"
-    url: /quickstart/
+    url: /docs/quick-start-guide/
   - title: "Leaderboard"
     url: /leaderboard/
   - title: "Rules"
-    url: /rules/
+    url: /docs/rules/
   - title: "Download"
-    url: /download/
+    url: /docs/download/
   - title: "Blog"
     url: /blog/
-  - title: "Dataset Specs"
-    url: /specs/
-  - title: "Documentation"
-    url: /docs/
   - title: "License"
     url: /license/
   - title: "About"
     url: /about/
+
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
+
+  - title: The Dataset
+    children:
+      - title: "Download"
+        url: /docs/download/
+      - title: "Tracks"
+        url: /docs/a/
+      - title: "Specifications"
+        url: /docs/b/
+      - title: "TFrecords"
+        url: /docs/c/
+
+  - title: Model Development
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
+      - title: "Validation Split"
+        url: /docs/a/
+      - title: "B"
+        url: /docs/b/
+      - title: "C"
+        url: /docs/c/
+
+  - title: Submitting Results
+    children:
+      - title: "Rules"
+        url: /docs/rules/
+      - title: "Evaluation"
+        url: /docs/evaluation/
+      - title: "Enter the Leaderboard"
+        url: /docs/a/
+      - title: "B"
+        url: /docs/b/
+      - title: "C"
+        url: /docs/c/

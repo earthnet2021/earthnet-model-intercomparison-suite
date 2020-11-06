@@ -5,12 +5,17 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+EarthNet is a joint effort of:
+* Christian Requena-Mesa <sup>1,2,3</sup>
+* Vitus Benson <sup>1</sup>
+* Markus Reichstein <sup>1,4</sup>
+* Jakob Runge <sup>3</sup>
+* Joachim Denzler <sup>2,4</sup>
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+1. Department of Biogeochemical IntegrationMax-Planck-Institute of Biogeochemistry. 07745 Jena, Germany
+2. Computer Vision GroupUniversity of Jena. 07743 Jena, Germany
+3. Institute of Data ScienceGerman Aerospace Center (DLR). 07743 Jena, Germany
+4. Michael-Stifel-Center Jena forData-driven and Simulation Science. 07743 Jena, Germany
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Contact: 
+
