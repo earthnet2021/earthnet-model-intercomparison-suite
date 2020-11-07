@@ -32,7 +32,7 @@ docs:
       - title: "Download"
         url: /docs/download/
       - title: "Tracks"
-        url: /docs/a/
+        url: /docs/tracks/
       - title: "Specifications"
         url: /docs/b/
       - title: "TFrecords"

@@ -10,7 +10,7 @@ crequ:
       icon: "fas fa-fw fa-link"
       url: "https://www.bgc-jena.mpg.de/bgi/index.php/People/ChristianRequenaMesa"
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/requenac/"
 
 vbenson:
@@ -25,7 +25,7 @@ vbenson:
       icon: "fas fa-fw fa-link"
       url: "https://www.bgc-jena.mpg.de/bgi/index.php/People/VitusBenson"
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/vitus-benson/"
 
 EN-Team:

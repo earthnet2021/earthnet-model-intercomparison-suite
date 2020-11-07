@@ -12,14 +12,14 @@ feature_row:
   - image_path: /assets/images/en-feature-1-satellite.png
     alt: "land surface forecasting"
     title: "Land surface forecasting"
-    excerpt: "By using Machine Learning to forecast the dynamics of Earth's surface we can predict crop yield, forest health, the effects of a drought and more."
+    excerpt: "Using Machine Learning to forecast the dynamics of Earth's surface, we can predict crop yield, forest health, the effects of a drought and more."
     url: "/docs/why/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/en-feature-2-pt-tf.png
     alt: "templates"
     title: "Deep learning templates"
-    excerpt: "Any method is welcome in the challenge. Our Toolkit provides functional templates for Pytorch and Tensorflow developers.<br /><br />"
+    excerpt: "Any method is welcome in the challenge. Our toolkit provides functional templates for Pytorch and Tensorflow developers.<br /><br />"
     url: "/docs/templates/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
