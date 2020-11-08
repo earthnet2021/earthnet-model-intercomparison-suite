@@ -10,6 +10,8 @@ sidebar:
   title: "Getting Started"
   nav: docs
 ---
+**WIP, to be further developed.**
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac blandit augue. Vivamus pulvinar neque lectus, ultricies placerat enim finibus ut. Phasellus vestibulum hendrerit nisi, sed volutpat magna accumsan at. Vestibulum pretium condimentum tincidunt.
 
 ## Evaluation

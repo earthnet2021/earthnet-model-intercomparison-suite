@@ -96,7 +96,7 @@ The following is not enforced as we are just two, but would be nice to give a tr
 - Follow PEP8
 - Docstring follow the sphinx numpy standard:
 
-```
+```python
 def foobar(x):
     """Is this real life or is this just fantasy?
 

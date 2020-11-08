@@ -9,7 +9,8 @@ sidebar:
   title: "Getting Started"
   nav: docs
 ---
-WIP, to be further developed.
+**WIP, to be further developed.**
+
 ## Get the EarthNet2021 framework
 1. **Fork** the EarthNet2021 framework github repository.
 {::nomarkdown}<p style="margin-top: 5px;margin-bottom: 0px"></iframe><iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=earthnet2021&repo=earthnet&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe></p>{:/nomarkdown}

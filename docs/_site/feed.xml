@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 Nov 2020 14:56:44 +0100</pubDate>
-    <lastBuildDate>Sun, 08 Nov 2020 14:56:44 +0100</lastBuildDate>
+    <pubDate>Sun, 08 Nov 2020 23:42:17 +0100</pubDate>
+    <lastBuildDate>Sun, 08 Nov 2020 23:42:17 +0100</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -135,8 +135,8 @@ It incorporates baseline methods and can spill out all of the plotting and analy
   &lt;li&gt;Docstring follow the sphinx numpy standard:&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def foobar(x):
-    &quot;&quot;&quot;Is this real life or is this just fantasy?
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foobar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Is this real life or is this just fantasy?
 
     Params
     ------
@@ -148,7 +148,7 @@ It incorporates baseline methods and can spill out all of the plotting and analy
     y : int
         End index
 
-    &quot;&quot;&quot;
+    &quot;&quot;&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;When in doubt, default to this &lt;a href=&quot;http://google.github.io/styleguide/pyguide.html&quot;&gt;Google Python style guide&lt;/a&gt;.&lt;/li&gt;

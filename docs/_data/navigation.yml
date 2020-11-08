@@ -17,6 +17,7 @@ main:
 
 docs:
   - title: Getting Started
+    url: /docs/quick-start-guide/
     children:
       - title: "Quick-Start Guide"
         url: /docs/quick-start-guide/
@@ -26,6 +27,7 @@ docs:
         url: /docs/upgrading/
 
   - title: The Dataset
+    url: /docs/download/
     children:
       - title: "Download"
         url: /docs/download/
@@ -39,6 +41,7 @@ docs:
         url: /docs/c/
 
   - title: The Toolkit
+    url: /docs/tk-download/
     children:
       - title: "Download"
         url: /docs/tk-download/
@@ -47,26 +50,14 @@ docs:
       - title: "DL templates"
         url: /docs/templates/
 
-  - title: Model Development
-    children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Validation Split"
-        url: /docs/a/
-      - title: "B"
-        url: /docs/b/
-      - title: "C"
-        url: /docs/c/
-
   - title: Submitting Results
+    url: /docs/rules/
     children:
       - title: "Rules"
         url: /docs/rules/
       - title: "Evaluation"
         url: /docs/evaluation/
-      - title: "Enter the Leaderboard"
-        url: /docs/a/
-      - title: "B"
-        url: /docs/b/
-      - title: "C"
-        url: /docs/c/
+      - title: "Submit"
+        url: /docs/submit/
+  - title: Cite us
+    url: /docs/citation/
