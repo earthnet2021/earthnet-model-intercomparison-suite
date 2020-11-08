@@ -43,7 +43,9 @@ docs:
       - title: "Download"
         url: /docs/tk-download/
       - title: "Structure"
-        url: /docs/structure/
+        url: /docs/tk-structure/
+      - title: "DL templates"
+        url: /docs/templates/
 
   - title: Model Development
     children:

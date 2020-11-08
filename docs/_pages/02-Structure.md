@@ -8,7 +8,7 @@ sidebar:
   title: "Getting Started"
   nav: docs
 ---
-Nothing clever here 😉. Every sample is stored as a crompressed numpy array .npz. File structure follows `<split_name>/<tile_name>/<sample_name.npz>`
+Nothing clever here 😉. Every sample is stored as a compressed numpy array .npz. File structure follows `<split_name>/<tile_name>/<sample_name.npz>`
 
 ```bash
 EarthNet2021
