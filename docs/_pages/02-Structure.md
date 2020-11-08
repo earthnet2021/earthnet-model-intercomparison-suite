@@ -1,19 +1,20 @@
 ---
 layout: single
 title: Structure
+classes: wide
 permalink: /docs/structure/
 last_modified_at: 2020-11-08
 sidebar:
   title: "Getting Started"
   nav: docs
 ---
-Nothing clever here :wink:. Every sample is stored as a crompressed numpy array .npz. File structure follows `<split_name>/<tile_name>/<sample_name.npz>`
+Nothing clever here 😉. Every sample is stored as a crompressed numpy array .npz. File structure follows `<split_name>/<tile_name>/<sample_name.npz>`
 
 ```bash
 EarthNet2021
 ├── training			# training set of the EarthNet2021 challenge
-|  ├── 29SND 			# Sentinel 2 tile containing samples at longitude 29, latitude S, subquadrant ND
-|  |  ├── 29SND_2017...124.npz # First training sample
+|  ├── 29SND 			# Sentinel 2 tile with samples at lon 29, lat S, subquadrant ND
+|  |  ├── 29SND_2017...124.npz 	# First training sample
 |  |  └── ...
 |  ├── 29SPC			# there is 85 tiles in the train set
 |  └── ...			# with 23904 .npz train samples in total
