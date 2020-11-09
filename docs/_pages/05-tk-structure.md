@@ -23,6 +23,6 @@ EarthNet2021
 ├── iid_test
 ```
 
-## Why build on top of the EarthNet2021 framework.
+**Why build on top of the EarthNet2021 framework?** By adding your model to the proposed framework via fork, you collaborate to a tidy model intercomparison project. Having a single suite to train/test/evaluate any model that enters the challenge allows for a lot of post-hoc flexibility, benefiting the knowledge extraction from the body of models. In addition, it will make it very easy for any researcher to be able to compare its work with others and build on top of existing models.
+{: .notice--info}
 
-By adding your model to the proposed framework via fork, you collaborate to a tidy model intercomparison project. Having a single entry point (`run.py`) to training/testing/evaluating any model that enters the challenge allows for a lot of post-hoc flexibility, benefiting the knowledge extraction from the body of models. It will make it very easy for any researcher to be able to compare to other models, or build on top of existing ones.
