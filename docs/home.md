@@ -31,13 +31,10 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more" 
 ---
-<center><<< 5 Min video goes here >>></center><br /><br />
-Inserting directly from /assets/video/:
-<center><video poster="assets/images/EarthNet2021_Intro_art.png" width=1000px controls>
-    <source src="assets/videos/tccml_neurips_talk.mp4" type="video/mp4">
-</video></center><br />
-Inserting from Youtube:
-{::nomarkdown}<iframe width="560" height="315" src="https://www.youtube.com/embed/x1SgmFa0r04" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{:/nomarkdown}
+<center><b><font size="+12">
+EarthNet2021 is under construction <br /></font></b>
+Bookmark us and visit again on December 7th to find out more!
+</center><br />
 
 {% include feature_row %}
 
