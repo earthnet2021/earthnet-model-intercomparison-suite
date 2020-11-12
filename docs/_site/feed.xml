@@ -6,179 +6,23 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 12 Nov 2020 15:34:15 +0100</pubDate>
-    <lastBuildDate>Thu, 12 Nov 2020 15:34:15 +0100</lastBuildDate>
+    <pubDate>Thu, 12 Nov 2020 21:08:21 +0100</pubDate>
+    <lastBuildDate>Thu, 12 Nov 2020 21:08:21 +0100</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
-        <title>This is a test: GitLab readme</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/EarthNet2021_Intro_art.png&quot; alt=&quot;EarthNet2021: Introductory Art&quot; /&gt;&lt;/p&gt;
+        <title>This is a test</title>
+        <description>&lt;p&gt;Test blog entry&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/EarthNet2021_Intro_art.png&quot; alt=&quot;EarthNet2021: Introductory Art&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Art generated via neural style transfer over a &lt;em&gt;blue marble&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;earthnet2021-forecasting-high-resolution-earth-multispectral-imagery&quot;&gt;EarthNet2021: Forecasting High-Resolution Earth Multispectral Imagery.&lt;/h1&gt;
 
-&lt;p&gt;In this repository lives the overarching framework for EarthNet2021. 
-It incorporates as git submodules the ‘Dynamic Landscape Adquisition’ under &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;src/datasets&lt;/code&gt; and ‘Codyn (pytorch)’ and ‘Arcon (tensoflow)’ under &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;src/models&lt;/code&gt;. 
-It incorporates baseline methods and can spill out all of the plotting and analysis needed for the publication, comparing across models and their ablations, in a end-to-end manner.&lt;/p&gt;
-
-&lt;h3 id=&quot;vision-for-this-repository-internal&quot;&gt;Vision for this repository (Internal)&lt;/h3&gt;
-&lt;p&gt;This project is to be released together with the NeurIPS 2020 Workshop Dataset/Challenge paper. For that release, the 2 submodules (Arcon and Codyn) will be detached. However, we’ll keep working here to generate all of the results we need towards the model publication.&lt;/p&gt;
-
-&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1AQ4Z9R4UOdM2MvQ1eRSkBjwK1LIH4yoVZ1yGYToMC-4/edit&quot;&gt;Doc: Papers Structure and TODO lists&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sharelatex.gwdg.de/4135679498chkcjrdhsbhx&quot;&gt;ShareLatex: EarthNet2021 Paper Draft (NeurIPS 2020 Workshop)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.climatechange.ai/events/neurips2020&quot;&gt;Tackling Climate Change with ML at NeurIPS2020&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=prDI7Oy-VMM&quot;&gt;How to Webinar Tackling Climate Change with ML at NeurIPS2020&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;In this repository lives the overarching framework for EarthNet2021.&lt;/p&gt;
 
 &lt;h2 id=&quot;setup&quot;&gt;Setup&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Clone the repo: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git clone --recursive git@git.bgc-jena.mpg.de:crequ/earthnet2021.git&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Why &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;recursive&lt;/code&gt;? Because we have at least one git submodules for hosting models. This means &lt;strong&gt;you’ll need to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git submodule update&lt;/code&gt; when updating your remote.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;We recommend setting up a docker container using our &lt;a href=&quot;Dockerfile&quot;&gt;Dockerfile&lt;/a&gt;. Run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker build . --tag earthnet2021:1.0&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Run a Docker container based on the image created. E.g, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker run -it earthnet2021:1.0&lt;/code&gt;. Use &lt;a href=&quot;scripts/docker_run.sh&quot;&gt;the util&lt;/a&gt; to run the container attaching properly all havy directories.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Run JupyterLab &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jupyter lab&lt;/code&gt; port 8888 is forwarded to the one defined in &lt;a href=&quot;scripts/docker_run.sh&quot;&gt;docker_run.sh&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;You might just start to work on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hostname:8000&lt;/code&gt;. However, docker/linux might have some bug that induces Jupyter lab irresponsivness due to port forwarding. Try &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh -N -f -L localhost:8000:localhost:8000 username@hostname &lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Submodules, such as ‘Arcon’ might require to set up a conda environment. If the environment was not created during the Docker build, run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda create --name ArconSTF36 python=3.6&lt;/code&gt;, then activate the environment &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;source activate ArconSTF36 &lt;/code&gt;and install the libraries &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip install -r ./src/models/Arcon/requirements.txt &lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;structure&quot;&gt;Structure&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;src&lt;/strong&gt; contains the submodules for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;datasets&lt;/code&gt; and machine learning &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;models&lt;/code&gt; . These are git projects themselves. These repositories live in symbiosis inside EarthNet2021. Development can occur on those submodules in the same way it has been done so far. Recent commits on their Master branch will be updated into EarthNet2021.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;sandbox&lt;/strong&gt; contains currently under development functions and pipelines. These might exist only as Jupyter Notebooks playground until full integration.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;utils&lt;/strong&gt; is the place for useful functions that provide visualization, evaluation, npz-to-tfrecods, etc.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;scripts&lt;/strong&gt; is the place for miscelaneous scripts to move data between machines, keep the working environment clean, set up the environments, etc.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;data&lt;/strong&gt; is the place for all of the heavy files.&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;data/&lt;strong&gt;temp&lt;/strong&gt; contains only temporary files. For example data/temp/checkpoints/ will hold images, gifs and tensorboard logs for models during training. But only those models that make the cut will be moved to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pretrained&lt;/code&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;data/&lt;strong&gt;outputs&lt;/strong&gt; holds &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/&amp;lt;model_name&amp;gt;/&amp;lt;experiment_name&amp;gt;/&amp;lt;data_split_name&amp;gt;&lt;/code&gt; with  numpy datacubes of the predictions generated over the test set by our trained models. This is the only directory our evaluation pipeline should need to access for inputs.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;data/&lt;strong&gt;pretrained&lt;/strong&gt; has the weights of fully trained and tested models that make their way into the publication.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;data/&lt;strong&gt;results&lt;/strong&gt; our evaluation pipeline should store all relevant figures/tables/animations here.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;data/&lt;strong&gt;datasets&lt;/strong&gt; is the directory where we mount &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BGI/scratch/vbenson/Landscapes_dynamics/release&lt;/code&gt; (however it will be best to move this content into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scratch/EarthNet2021/data/datasets/&lt;/code&gt; for consistency)&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ideally, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;data/&lt;/code&gt; is mounted into the Docker from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BGI/scratch/EarthNet2021/data/&lt;/code&gt; . In any case, utils might contain a script to move the subfolders of the heavy &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;data/&lt;/code&gt; between Juba/Luga’s scratch disk and Minerva’s BGI work_2 directory. These heavy folders are included in the .gitignore.&lt;/p&gt;
-
-&lt;h2 id=&quot;running&quot;&gt;Running&lt;/h2&gt;
-
-&lt;p&gt;Your main entry point is run.py.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;configs/&lt;/strong&gt; is the location for the submodules configuration files. Each configuration is saved in a .yml format. It defines how to map the arguments given to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;run.py&lt;/code&gt; into scripts of each submodules. The config.yml file defines, what script to run, what conda environment, arguments to pass and the experiment_settings.json .&lt;/p&gt;
-
-&lt;h2 id=&quot;our-conventions&quot;&gt;Our conventions&lt;/h2&gt;
-&lt;h3 id=&quot;towards-an-idillic-work-as-a-team&quot;&gt;towards an idillic work as a team&lt;/h3&gt;
-&lt;p&gt;The following is not enforced as we are just two, but would be nice to give a try to follow these practices it’s a good oportunity to learn! :D&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Branch names should follow the pattern &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;name_description&amp;gt;&lt;/code&gt;. For example, Chris developing a new classication algorithm may name his branch &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chris_amazing_classifier&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Commit messages should be concise and descriptive; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wip&lt;/code&gt; should be expanded to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wip - simulated annealing test suite&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;“Commit early and commit often” is good practice. Develop with the mindset of consolidated chunks that can each be described as a unique commit.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Pull requests (PRs)&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Before requesting review, organize your commits by squashing them w/ &lt;a href=&quot;https://medium.com/@slamflipstrom/a-beginners-guide-to-squashing-commits-with-git-rebase-8185cf6e62ec&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git rebase -i&lt;/code&gt;&lt;/a&gt;. This is good practice for keeping git history tidy, and signficantly aids your reviewers in looking through the PR; five well-named sequential commits are far easier to review than 23 seeming random commits.&lt;/li&gt;
-      &lt;li&gt;Push your feature branch to the mainline (should be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;origin&lt;/code&gt;) and open a PR on the repo homepage.&lt;/li&gt;
-      &lt;li&gt;Give your PR a descriptive title and briefly describe what you’re pushing. If there is useful info to provide the reviewers (e.g. an example noebook to run, a point of entry, or outstanding questions) please include it.&lt;/li&gt;
-      &lt;li&gt;In the description tag &lt;strong&gt;one teammates for review&lt;/strong&gt;. As this is a two person project, it’s pretty obvious who to tag.&lt;/li&gt;
-      &lt;li&gt;The reviewer will provide thoughtful feedback, and the developer will address their concerns.&lt;/li&gt;
-      &lt;li&gt;All PRs must be signed off by the reviewer before merging into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt;.&lt;/li&gt;
-      &lt;li&gt;See the additional PR info below, and the &lt;a href=&quot;https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow&quot;&gt;PR section here&lt;/a&gt; for more context.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;git submodule update –remote for updating all submodules&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;code-style&quot;&gt;Code style&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Follow PEP8&lt;/li&gt;
-  &lt;li&gt;Docstring follow the sphinx numpy standard:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foobar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Is this real life or is this just fantasy?
-
-    Params
-    ------
-    x : int
-        Start index
-
-    Returns
-    -------
-    y : int
-        End index
-
-    &quot;&quot;&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;When in doubt, default to this &lt;a href=&quot;http://google.github.io/styleguide/pyguide.html&quot;&gt;Google Python style guide&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;misc&quot;&gt;Misc.&lt;/h2&gt;
-
-&lt;h3 id=&quot;more-on-pull-requests&quot;&gt;More on pull requests&lt;/h3&gt;
-
-&lt;p&gt;Before each push to the repository, pull request has to be made and sent for review. There are multiple reasons why pull requests are useful. Here are some of them:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Share the knowledge. With your PR, you are showing to your teammates what is added, for what purpose and how it’s implemented&lt;/li&gt;
-  &lt;li&gt;Learn. Maybe you are used to do the things one way. Your teammates can show you how the things can be done the other way&lt;/li&gt;
-  &lt;li&gt;Accidental mistakes. There is nothing worse than having stupid typo error in your method or classname, which can then propagate to other modules or classes. Usually additional pair of eyes will catch those&lt;/li&gt;
-  &lt;li&gt;Consistency. Some of it may be covered with pre hook commit rules and tools like pylint or similar. However, not all can be caught automatically&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Pull request should be reviewed and approved by two engineers other than PR author (this is an ideal case. Our team is too small, so let’s say only one reviews it). Creating and reviewing pull requests should be part of our standard development process. Some general guidelines for pull requests:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Write small pull requests. If the feature you are working on is quite large, divide it into smaller pull requests so that its easier to review it&lt;/li&gt;
-  &lt;li&gt;Commit messages should be short but descriptive. Writing commit messages like “edit” or “change” is really not useful at all&lt;/li&gt;
-  &lt;li&gt;Once created, review pull request by yourself first. This can help you identify something that needs to be changed or fixed immediately&lt;/li&gt;
-  &lt;li&gt;Add description for your pull request&lt;/li&gt;
-  &lt;li&gt;If you want your pull request to be reviewed faster for some reason, don’t hesitate to remind your reviewer.&lt;/li&gt;
-  &lt;li&gt;When merging an approved PR make sure to select Squash and merge. That way we will have a clean git history with one commit per PR.&lt;/li&gt;
-  &lt;li&gt;Posting pull request link on slack channel can speed up reviewing. Again, have in mind, the shorter your pull request is, less time it will take to review it.&lt;/li&gt;
-&lt;/ul&gt;
-
 </description>
         <pubDate>Wed, 04 Nov 2020 14:04:28 +0100</pubDate>
         <link>http://localhost:4000/testing/EarthNet-git-readme/</link>

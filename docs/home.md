@@ -37,4 +37,3 @@ Bookmark us and visit again on December 7th to find out more!
 </center><br />
 
 {% include feature_row %}
-
