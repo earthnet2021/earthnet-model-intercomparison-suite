@@ -31,9 +31,6 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more" 
 ---
-<center><b><font size="+12">
-EarthNet2021 is under construction <br /></font></b>
-Bookmark us and visit again on December 7th to find out more!
-</center><br />
-
+{::nomarkdown}<iframe width="560" height="315" src="https://www.youtube.com/embed/sumLCeZ92Hk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{:/nomarkdown}
 {% include feature_row %}
+
