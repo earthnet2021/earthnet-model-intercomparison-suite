@@ -10,8 +10,8 @@ header:
 excerpt: 'A machine learning challenge and dataset for land surface and localized impact forecasting.<br /> <small><a href="https://github.com/earthnet2021/earthnet/releases/tag/1.0.0">Latest release v1.0.0</a></small><br />'
 feature_row:
   - image_path: /assets/images/en-feature-1-satellite.png
-    alt: "land surface forecasting"
-    title: "Land surface forecasting"
+    alt: "earth surface forecasting"
+    title: "Earth surface forecasting"
     excerpt: "Using Machine Learning to forecast the dynamics of Earth's surface, we can predict crop yield, forest health, the effects of a drought and more."
     url: "/docs/why/"
     btn_class: "btn--primary"
@@ -31,6 +31,5 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more" 
 ---
-{::nomarkdown}<iframe width="560" height="315" src="https://www.youtube.com/embed/sumLCeZ92Hk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{:/nomarkdown}
 {% include feature_row %}
 
