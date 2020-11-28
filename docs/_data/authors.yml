@@ -1,0 +1,44 @@
+crequ:
+  name        : "Christian Requena-Mesa"
+  bio         : "What do you want, jewels?"
+  avatar      : "/assets/images/bio-photo-chris.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:crequ@bgc-jena.mpg.de"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.bgc-jena.mpg.de/bgi/index.php/People/ChristianRequenaMesa"
+    - label: "Linkedin"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/requenac/"
+
+vbenson:
+  name        : "Vitus Benson"
+  bio         : "I ordered what?"
+  avatar      : "/assets/images/bio-photo-vitus.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:vbenson@bgc-jena.mpg.de"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.bgc-jena.mpg.de/bgi/index.php/People/VitusBenson"
+    - label: "Linkedin"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/vitus-benson/"
+
+EN-Team:
+  name        : "EN-Team"
+  bio         : "Hybrid ML-ESS team focused on spatio-temporal data driven land surface forecasting."
+  avatar      : "/assets/images/bio-photo-EN.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:earthnet.team@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://earthnet.tech"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github-square"
+      url: "https://github.com/earthnet2021"
