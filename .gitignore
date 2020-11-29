@@ -1,0 +1,16 @@
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints/*
+.ipynb_checkpoints*
+__pycache__
+.vscode/
+.DS_Store
+*.h5
+*.cpython-37.pyc
+*.pth
+*.zip
+*.swp
+lightning_logs/*
+data/*
+*.pyc
+misc*
+nvidia/
