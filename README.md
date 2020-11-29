@@ -1,5 +1,4 @@
-<center> ![EarthNet2021: Introductory Art](/imgs/EarthNet2021_Intro_art.png) </center>
-
+![EarthNet2021: Introductory Art](/imgs/EarthNet2021_Intro_art.png)
 Art generated via neural style transfer over a *blue marble*.
 
 # EarthNet2021: Forecasting High-Resolution Earth Multispectral Imagery.
