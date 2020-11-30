@@ -48,7 +48,7 @@ docs:
       - title: "EarthNetScore"
         url: /docs/tk-earthnetscore/
 
-  - title: "Model Intercomparison Suite"
+  - title: "Intercomparison Suite"
     url: /docs/mis-installation
     children:
       - title: "Installation"

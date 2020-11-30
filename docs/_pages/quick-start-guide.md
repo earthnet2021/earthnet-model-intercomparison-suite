@@ -10,7 +10,7 @@ sidebar:
   nav: docs
 ---
 
-EarthNet2021 is a dataset and challenge for the task of Earth surface forecasting, that is predicting satellite imagery conditional on future weather model projections.
+EarthNet2021 is a dataset and challenge for the task of Earth surface forecasting..
 
 We describe Earth surface forecasting in detail [here](/docs/ch-task/).
 
