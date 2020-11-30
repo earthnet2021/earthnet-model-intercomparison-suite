@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title: Earth surface forecasting - a novel task
 permalink: /docs/ch-task/
 last_modified_at: 2020-11-29
