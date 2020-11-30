@@ -13,7 +13,7 @@ feature_row:
     alt: "earth surface forecasting"
     title: "Earth surface forecasting"
     excerpt: "Using Machine Learning to forecast the dynamics of Earth's surface, we can predict crop yield, forest health, the effects of a drought and more."
-    url: "/docs/why/"
+    url: "/docs/ch-task/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/en-feature-2-pt-tf.png
