@@ -20,7 +20,7 @@ feature_row:
     alt: "templates"
     title: "Deep learning templates"
     excerpt: "Any method is welcome in the challenge. Our toolkit provides functional templates for Pytorch and Tensorflow developers.<br /><br />"
-    url: "/docs/templates/"
+    url: "/docs/mis-templates/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/en-feature-3-opensource.png
