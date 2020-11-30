@@ -13,7 +13,7 @@ EarthNet is a joint effort of:
 * Jakob Runge <sup>3</sup>
 * Joachim Denzler <sup>2,4</sup>
 
-1. Department of Biogeochemical Integration, Max-Planck-Institute of Biogeochemistry. 07745 Jena, Germany
+1. Department Biogeochemical Integration, Max-Planck-Institute for Biogeochemistry. 07745 Jena, Germany
 2. Computer Vision Group, University of Jena. 07743 Jena, Germany
 3. Institute of Data Science, German Aerospace Center (DLR). 07743 Jena, Germany
 4. Michael-Stifel-Center Jena for Data-driven and Simulation Science. 07743 Jena, Germany

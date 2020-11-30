@@ -1,14 +1,17 @@
 ---
-author_profile: true
 layout: single
 toc: true
 toc_sticky: true
 toc_label: Test Tracks
-title: Leaderboard
-permalink: /leaderboard/
+title: EarthNet2021 Challenge - Leaderboard
+permalink: /docs/ch-leaderboard/
+last_modified_at: 2020-11-29
+sidebar:
+  title: "Documentation"
+  nav: docs
 ---
 
-## Independent and Identically Distributed
+## Main (IID)
 
 | **Rank** |      **Model Name**      | **Group Name** |   **MAD**  |   **OLS**  |   **EMD**  |  **SSIM**  | **EarthNetScore** |
 |:----:|:--------------------:|:----------:|:------:|:------:|:------:|:------:|:-------------:|
@@ -20,7 +23,7 @@ permalink: /leaderboard/
 
 
 
-## Out-of-Distribution
+## Robustness (OOD)
 
 | **Rank** |      **Model Name**      | **Group Name** |   **MAD**  |   **OLS**  |   **EMD**  |  **SSIM**  | **EarthNetScore** |
 |:----:|:--------------------:|:----------:|:------:|:------:|:------:|:------:|:-------------:|
@@ -31,7 +34,7 @@ permalink: /leaderboard/
 
 
 
-## Extreme Weather
+## Extreme Summer
 
 | **Rank** |      **Model Name**      | **Group Name** |   **MAD**  |   **OLS**  |   **EMD**  |  **SSIM**  | **EarthNetScore** |
 |:----:|:--------------------:|:----------:|:------:|:------:|:------:|:------:|:-------------:|
@@ -43,7 +46,7 @@ permalink: /leaderboard/
 
 
 
-## Full Seasonal Cycle
+## Seasonal Cycle
 
 | **Rank** |      **Model Name**      | **Group Name** |   **MAD**  |   **OLS**  |   **EMD**  |  **SSIM**  | **EarthNetScore** |
 |:----:|:--------------------:|:----------:|:------:|:------:|:------:|:------:|:-------------:|

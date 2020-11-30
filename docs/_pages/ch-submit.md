@@ -1,12 +1,12 @@
 ---
 layout: single
 title: Submit Your Score
-permalink: /docs/submit/
+permalink: /docs/ch-submit/
 last_modified_at: 2020-11-08
 toc: true
 toc_stickly: true
 sidebar:
-  title: "Getting Started"
+  title: "Documentation"
   nav: docs
 ---
 **WIP, to be further developed.**

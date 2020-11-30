@@ -2,17 +2,17 @@
 layout: single
 toc: true
 toc_sticky: true
-title: Rules
-permalink: /docs/rules/
-last_modified_at: 2020-11-06
+title: EarthNet2021 challenge - Rules
+permalink: /docs/ch-rules/
+last_modified_at: 2020-11-29
 toc: true
 sidebar:
-  title: "Getting Started"
+  title: "Documentation"
   nav: docs
 ---
 **WIP, to be further developed.**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac blandit augue. Vivamus pulvinar neque lectus, ultricies placerat enim finibus ut. Phasellus vestibulum hendrerit nisi, sed volutpat magna accumsan at. Vestibulum pretium condimentum tincidunt.
+Idea: What are you allowed to do, what not.
 
 ## Evaluation
 
