@@ -3,12 +3,12 @@ Art generated via neural style transfer over a *blue marble*.
 
 # EarthNet2021: Forecasting High-Resolution Earth Multispectral Imagery.
 
-In this repository lives the Model Intercomparison project for EarthNet2021. 
+In this repository lives the Model Intercomparison Project for EarthNet2021 (ENMIP). 
 It incorporates models that have entered the challenge as submodules under `src/models` and the persistance baseline. It can spill out a ton of the plots and analysis across the different test tracks.
 
 ### Resources
 
-- [EarthNet Website](https://www.earthnet.tech)
+- [Full documentation on EarthNet Website](https://www.earthnet.tech/docs/quick-start-guide/)
 - [EarthNet2021 paper](https://arxiv.org/linktopaper)
 - [Video: why predict Earth surface?](https://www.earthnet.tech/docs/why/)
 - [EarthNet toolkit on Pypi](https://pypi.org/project/earthnet)
