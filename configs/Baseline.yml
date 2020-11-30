@@ -1,0 +1,15 @@
+---
+# Mapping from run.py into src/models/Baseline submodule
+entry_point:
+    test: src/models/Baseline/generate.py
+    train: None
+conda_env: Base
+mapped_args_test:
+    dataroot: dataroot
+    outpath: out_expr_dir
+    experiment_name: experiment_name
+    split_name: split_name
+    submodel: submodel
+    context_length: context_length
+    prediction_length: prediction_length
+...
