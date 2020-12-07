@@ -1,0 +1,132 @@
+{
+    "ablation_conv_rnn_norm": false,
+    "ablation_rnn": false,
+    "acvideo_gan_weight": 0.0,
+    "acvideo_vae_gan_weight": 0.0,
+    "ae_l2_weight": 0.0,
+    "batch_size": 4,
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "clip_length": 10,
+    "context_frames": 10,
+    "context_images_background": true,
+    "context_schedule_sampling": "linear",
+    "context_schedule_sampling_steps":[
+        0,
+        3000
+    ],
+    "conv_rnn": "lstm",
+    "gnet":"deep21",
+    "d_conditional": true,
+    "d_downsample_layer": "conv_pool2d",
+    "d_net": "legacy",
+    "d_use_gt_inputs": true,
+    "decay_steps": [
+        20000,
+        500000
+    ],
+    "dependent_mask": true,
+    "dilation_rate": [
+        1,
+        1
+    ],
+    "downsample_layer": "conv_pool2d",
+    "e_net": "n_layer",
+    "end_lr": 0.0,
+    "feature_l2_weight": 0.0,
+    "first_image_background": false,
+    "g_enc_0_kernel_size":[
+        4,
+        4
+    ],
+    "g_enc_kernel_size":[
+        6,
+        6
+    ],
+    "g_enc_rnn_kernel_size":[
+        4,
+        4
+    ],
+    "g_dec_kernel_size":[
+        4,
+        4
+    ],
+    "g_dec_rnn_kernel_size":[
+        6,
+        6
+    ],
+    "g_scratch_kernel_size":[
+        4,
+        4
+    ],
+    "g_masks_kernel_size":[
+        4,
+        4
+    ],
+    "gan_feature_cdist_weight": 0.0,
+    "gan_feature_l2_weight": 0.0,
+    "gan_loss_type": "LSGAN",
+    "gan_weight": 0.0,
+    "generate_scratch_image": true,
+    "image_gan_weight": 0.0,
+    "image_sn_gan_weight": 0.0,
+    "image_sn_vae_gan_weight": 0.0,
+    "image_vae_gan_weight": 0.0,
+    "images_sn_gan_weight": 0.0,
+    "images_sn_vae_gan_weight": 0.0,
+    "kernel_size": [
+        4,
+        4
+    ],
+    "kl_anneal": "linear",
+    "kl_anneal_k": -1.0,
+    "kl_anneal_steps": [
+        3000,
+        9000
+    ],
+    "kl_weight": 0.001,
+    "l1_weight": 1.0,
+    "l2_weight": 0.0,
+    "l2_NDVI_weight": 0.1,
+    "last_frames": 1,
+    "lr": 0.0003,
+    "max_steps": 380000,
+    "n_layers": 4,
+    "ndf": 8,
+    "nef": 24,
+    "ngf": 16,
+    "norm_layer": "instance",
+    "no_scratch_norm": true,
+    "num_samples": 4,
+    "num_transformed_images": 0,
+    "num_context_frames_background": 10,
+    "nz": 12,
+    "prev_image_background": false,
+    "repeat": 1,
+    "rnn": "lstm",
+    "schedule_sampling": "inverse_sigmoid",
+    "schedule_sampling_k": 900.0,
+    "schedule_sampling_steps": [
+        0,
+        7000
+    ],
+    "sequence_length": 30,
+    "state_weight": 0.0,
+    "scratch_tanh": true,
+    "transformation": "None",
+    "tuple_gan_weight": 0.0,
+    "tuple_vae_gan_weight": 0.0,
+    "tv_weight": 0.0,
+    "upsample_layer": "deconv2d",
+    "use_e_rnn": true,
+    "use_rnn_z": true,
+    "vae_gan_weight": 0.0,
+    "variability_weight": 0.0,
+    "vgg_cdist_weight": 0.0,
+    "video_gan_weight": 0.0,
+    "video_sn_gan_weight": 0.0,
+    "video_sn_vae_gan_weight": 0.0,
+    "video_vae_gan_weight": 0.0,
+    "where_add": "all",
+    "z_l1_weight": 0.0
+}

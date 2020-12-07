@@ -1,0 +1,10 @@
+{
+    "context_frames": 10,
+    "crop_size": 0,
+    "force_time_shift": true,
+    "frame_skip": 0,
+    "scale_size": 0,
+    "sequence_length": 30,
+    "time_shift": 1,
+    "use_state": false
+}
