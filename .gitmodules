@@ -1,0 +1,3 @@
+[submodule "src/models/tf_template"]
+	path = src/models/tf_template
+	url = https://github.com/crequena/earthnet-tf-template.git
