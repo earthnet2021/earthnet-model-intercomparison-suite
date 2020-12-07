@@ -1,0 +1,1 @@
+The dataset (EarthNet2021) generation pipeline from Sentinel-2 AWS and EOBS will be made public on the near future. Release will be announced on our channels: www.earthnet.tech and https://twitter.com/EarthNetTeam 
