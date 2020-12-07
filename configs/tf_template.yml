@@ -1,0 +1,26 @@
+---
+# Mapping from run.py into src/models/Arcon submodule
+entry_point:
+    test: src/models/Arcon/generate_earthnet.py
+    train: src/models/Arcon/train.py
+conda_env: ArconSTF36
+#argument-to-Arcon-entry_point.py: argument to run.py
+mapped_args_train:
+    input_dir: data_expr_dir
+    checkpoint: check_expr_dir
+    model: submodel
+    model_hparams_dict: set_expr_dir
+    resume: resume
+    dataset: dataset
+    dataset_hparams_dict: set_expr_dir
+mapped_args_test:
+    input_dir: data_expr_dir
+    output_dir: out_expr_dir
+    checkpoint: check_expr_dir
+    model: submodel
+    dataset: dataset
+    num_stochastic_samples: num_stochastic_samples
+    batch_size: batch_size
+    context_length: context_length
+    prediction_length: prediction_length
+...
