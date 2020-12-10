@@ -152,20 +152,34 @@ def translate_NPZ(cpus, dataformat, paths):
         #unzip the paths variables
         NPZ_path, filename = paths
         
-        #load data samples
+        #print(NPZ_path)
+        #loads array, safely concatenates them if split into context and target.
         NPZ = np.load(NPZ_path)
-        blue, green, red, nir, _, _, mask = np.split(NPZ['highresdynamic'].astype(np.float), 7, axis=2)
-        hr_dem = NPZ['highresstatic'].astype(np.float)
+        if "context" in NPZ_path:
+            target_NPZ = np.load(NPZ_path.replace("context", "target",2))
+            highresdynamic = np.concatenate((NPZ['highresdynamic'], target_NPZ['highresdynamic']), axis=3)
+        else:
+            highresdynamic = NPZ['highresdynamic']
+        mesodynamic = NPZ['mesodynamic']
+        highresstatic = NPZ['highresstatic']
+        mesostaic = NPZ['mesostatic']
+        
+        if "train" in NPZ_path:
+            blue, green, red, nir, _, _, mask = np.split(highresdynamic.astype(np.float), 7, axis=2)
+        else:
+            blue, green, red, nir, mask = np.split(highresdynamic.astype(np.float), 5, axis=2)
+            
+        hr_dem = highresstatic.astype(np.float)
 
         #resample mesoscale (usually 80x80xXx150) to match highres (usually 128x128xYx30)
         hr_h, hr_w, _, hr_t = mask.shape
-        meso_h, meso_w, meso_c, meso_t = NPZ['mesodynamic'].shape
+        meso_h, meso_w, meso_c, meso_t = mesodynamic.shape
         factor_h, factor_w, factor_t = hr_h/meso_h, hr_w/meso_w, hr_t/meso_t
 
-        mesodynamic = zoom(NPZ['mesodynamic'].astype(np.float), (factor_h, factor_h, 1, factor_t), order=2)
+        mesodynamic = zoom(mesodynamic.astype(np.float), (factor_h, factor_h, 1, factor_t), order=2)
         #we shift by 1 the weather predictors so they are fed 1 time step early.
         mesodynamic_shifted = np.roll(mesodynamic, shift=-1, axis=3)
-        meso_dem = zoom(NPZ['mesostatic'].astype(np.float), (factor_h, factor_h, 1), order=2)
+        meso_dem = zoom(mesostaic.astype(np.float), (factor_h, factor_h, 1), order=2)
         
         #Where Sea Level Pressure == 0 mbar (channel 1), replace by np.nan
         for layer in range(0,5):
@@ -226,14 +240,20 @@ def make_tfrecords(split_path='data/dataset/train', out_path='data/tf_dataset/tr
     
     global pbar
     pbar = tqdm(total=cpt)
+    concatenate=False
     
+    print(split_path)
+    if "_split" in split_path:
+        split_path = os.path.join(split_path,"context")
     tiles = os.listdir(split_path)
+        
     if 'LICENSE' in tiles:
         tiles.remove('LICENSE')
     tiles.sort()
     
     dirs = []
     filenames = []
+    
     for tile in tiles:
         in_tile_path = os.path.join(split_path, tile)
         out_tile_path = os.path.join(out_path, tile)
