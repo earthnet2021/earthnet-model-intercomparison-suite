@@ -34,7 +34,7 @@ class ArithmeticMeanModel():
         self.context_length = context_length
         self.sequence_length = sequence_length
         
-    def predict(self, input_data):
+    def predict(self, input_data, no_data_channel):
         """
 
         Params
@@ -58,7 +58,7 @@ class ArithmeticMeanModel():
         
         # Mask RGB nIR with NaN whenver the No data auxiliary layer is True
         # These are either clouds, shadows or other artifacts on the images
-        no_data = input_data['highresdynamic'][:,:,[6],:self.context_length]
+        no_data = input_data['highresdynamic'][:,:,[no_data_channel],:self.context_length]
         context[np.repeat(no_data,4,2)==True] = np.nan
         
         #Set up the pred array

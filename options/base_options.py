@@ -76,7 +76,7 @@ class BaseOptions():
         elif self.opt.mode == 'plot':
             self.opt.expr_dir = os.path.join(self.opt.evalpath, 'figures')
         
-        if save and not self.opt.continue_train:
+        if save and not self.opt.resume:
             if not os.path.exists(self.opt.expr_dir):
                 os.makedirs(self.opt.expr_dir)
             file_name = os.path.join(self.opt.expr_dir, 'opt.txt')

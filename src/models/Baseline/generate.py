@@ -37,31 +37,28 @@ global pbar
 pbar = tqdm(total=cpt)
 
 #predicts and save. Parallelize it.
-def predict_and_save(cpus, paths):
+def predict_and_save(cpus, no_data_channel, paths):
     in_path, out_file_path = paths
-    input_data = np.load(in_path)
-    pred = model.predict(input_data)
+    input_data = np.load(in_path)       
+    pred = model.predict(input_data, no_data_channel)
     
     #save predictions
-    if args.keep_input:
-        #saves predictors
-        output_data = dict(input_data)
-        output_data['highrespred'] = output_data['highresdynamic'][:,:,:4,:]
-        output_data['highrespred'][:,:,:,args.context_length:] = pred
-        np.savez(out_file_path, **output_data)
-    else:
-        #does not save predictors
-        np.savez(out_file_path, pred)
+    np.savez(out_file_path, pred)
     pbar.update(cpus)
         
 #Loops trough Sentinel Tiles in the dataset/split directory
+if "_split" in split_path:
+    split_path = os.path.join(split_path,"context")
 tiles = os.listdir(split_path)
+if 'LICENSE' in tiles:
+    tiles.remove('LICENSE')
 tiles.sort()
+
 
 in_files = []
 out_files = []
 for tile in tiles:
-    in_tile_path = os.path.join(args.dataroot,  args.split_name, tile)
+    in_tile_path = os.path.join(split_path, tile)
     out_tile_path = os.path.join(args.outpath, tile)
     if not os.path.exists(out_tile_path):
         os.makedirs(out_tile_path)
@@ -73,8 +70,12 @@ for tile in tiles:
 #zip input paths and output paths
 all_paths = zip(in_files, out_files)
 
+if "_split" in split_path:
+    no_data_channel = 4
+else:
+    no_data_channel = 6
 cpus = mp.cpu_count()
 pool = mp.Pool(cpus)
-func = partial(predict_and_save, cpus)
+func = partial(predict_and_save, cpus, no_data_channel)
 pool.map(func, all_paths)
 pool.close()

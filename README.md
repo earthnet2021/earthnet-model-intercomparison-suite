@@ -3,7 +3,7 @@ Art generated via neural style transfer over a *blue marble*.
 
 # EarthNet2021: Forecasting High-Resolution Earth Multispectral Imagery.
 
-In this repository lives the Model Intercomparison Suite for EarthNet2021 (ENMIS). 
+In this repository lives the Model Intercomparison Project for EarthNet2021 (ENMIP). 
 It incorporates models that have entered the challenge as submodules under `src/models` and the persistance baseline. It can spill out a ton of the plots and analysis across the different test tracks.
 
 ### Resources
@@ -28,7 +28,7 @@ It incorporates models that have entered the challenge as submodules under `src/
 
 5. You might just start to work on `hostname:8000`. However, docker/linux might have some bug that induces Jupyter lab irresponsivness due to port forwarding. Try `ssh -N -f -L localhost:8000:localhost:8000 username@hostname `
 
-Submodules, such as 'Tf_template' might require to set up a conda environment. If the environment was not created during the Docker build, run `conda create --name ENtf115py36 python=3.6`, then activate the environment `source activate ENtf115py36 `and install the libraries `pip install -r ./src/models/tf_template/requirements.txt `.
+Submodules, such as 'tf_template' might require to set up a conda environment. If the environment was not created during the Docker build, run `conda create --name ENtf115py36 python=3.6`, then activate the environment `source activate ENtf115py36 `and install the libraries `pip install -r ./src/models/tf_template/requirements.txt `.
 
 ## Structure
 - **src** contains the submodules for the `datasets` and machine learning `models` . These are git projects themselves. These repositories live in symbiosis inside EarthNet2021. Development can occur on those submodules in the same way it has been done so far. Recent commits on their Master branch will be updated into EarthNet2021.
