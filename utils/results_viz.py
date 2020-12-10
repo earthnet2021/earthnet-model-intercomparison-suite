@@ -6,7 +6,7 @@ import json
 import pandas as pd
 from scipy import stats
 import seaborn as sns
-from src.evaluation.plot_sample import plot_video
+from plot_sample import plot_video
 
 
 class EvalPlotter:
