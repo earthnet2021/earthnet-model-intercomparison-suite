@@ -3,7 +3,7 @@ Art generated via neural style transfer over a *blue marble*.
 
 # EarthNet2021: Forecasting High-Resolution Earth Multispectral Imagery.
 
-In this repository lives the Model Intercomparison Project for EarthNet2021 (ENMIP). 
+In this repository lives the Model Intercomparison Suite for EarthNet2021 (ENMIS). 
 It incorporates models that have entered the challenge as submodules under `src/models` and the persistance baseline. It can spill out a ton of the plots and analysis across the different test tracks.
 
 ### Resources

@@ -5,7 +5,7 @@ import sys
 
 from options.base_options import BaseOptions
 from earthnet.parallel_score import EarthNetScore
-from src.evaluation.viz import EvalPlotter
+from utils.results_viz import EvalPlotter
 '''
 Main entry to launch training, testing and evaluation on the EarthNet2021 
 Model Intercomparison Project.

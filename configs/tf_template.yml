@@ -1,10 +1,11 @@
 ---
-# Mapping from run.py into src/models/Arcon submodule
+# Mapping from run.py into src/models/tf_template submodule
 entry_point:
-    test: src/models/Arcon/generate_earthnet.py
-    train: src/models/Arcon/train.py
-conda_env: ArconSTF36
-#argument-to-Arcon-entry_point.py: argument to run.py
+    test: src/models/tf_template/generate_earthnet.py
+    train: src/models/tf_template/train_earthnet.py
+conda_env: ENtf115py36
+
+#argument-to-tf_template_entry.py: argument to run.py
 mapped_args_train:
     input_dir: data_expr_dir
     checkpoint: check_expr_dir
