@@ -47,7 +47,7 @@ Submodules, such as 'tf_template' might require to set up a conda environment. I
 
   - data/**results** our evaluation pipeline should store all relevant figures/tables/animations here.
   
-  - data/**datasets** is the directory where we mount `BGI/scratch/vbenson/Landscapes_dynamics/release` (however it will be best to move this content into `scratch/EarthNet2021/data/datasets/` for consistency)
+  - data/**datasets** is the directory where we drop the EarthNet2021 datasets `/release`
 
 Ideally, `data/` is mounted into the Docker from a large disk as it will get big quickly.
 
