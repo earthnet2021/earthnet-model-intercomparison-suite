@@ -11,6 +11,6 @@ sidebar:
 ---
 
 
-**WIP**
+**This section is still being worked on.**
 
-Idea: Here the full API of the Model Intercomparison Suite. What are the options for Run.py, what are the outcomes etc.
+Everything you need to start can be found on the Intercomparison Suite repository. Keep in touch https://twitter.com/EarthNetTeam to be updated!
