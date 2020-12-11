@@ -7,7 +7,7 @@ header:
   cta_label: "<i class='fa fa-download'></i> Install Now"
   cta_url: "/docs/quick-start-guide/"
   caption:
-excerpt: 'A machine learning challenge and dataset for Earth surface and localized impact forecasting.<br /> <small><a href="https://github.com/earthnet2021/earthnet-model-intercomparison-suite/releases/tag/v0.1.0">Latest Model Intercomparison Suite release v0.1.0</a></small><br /><small><a href="https://github.com/earthnet2021/earthnet-toolkit/releases/tag/v0.2.0">Latest Toolkit release v0.2.0</a></small><br />'
+excerpt: 'A machine learning challenge and dataset for Earth surface and localized impact forecasting.<br /> <small><a href="https://github.com/earthnet2021/earthnet-model-intercomparison-suite/releases/tag/v0.1.0">Latest Model Intercomparison Suite release v0.1.0</a></small><br /><small><a href="https://github.com/earthnet2021/earthnet-toolkit/releases/tag/0.2.0">Latest Toolkit release v0.2.0</a></small><br />'
 feature_row:
   - image_path: /assets/images/en-feature-1-satellite.png
     alt: "earth surface forecasting"
