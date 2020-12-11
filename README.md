@@ -9,7 +9,7 @@ It incorporates models that have entered the challenge as submodules under `src/
 ### Resources
 
 - [Full documentation on EarthNet Website](https://www.earthnet.tech/docs/quick-start-guide/)
-- [EarthNet2021 paper](https://arxiv.org/linktopaper)
+- [EarthNet2021 paper TCCML @NeurIPS2020](https://www.climatechange.ai/papers/neurips2020/48)
 - [Video: why predict Earth surface?](https://www.earthnet.tech/docs/why/)
 - [EarthNet toolkit on Pypi](https://pypi.org/project/earthnet)
 
