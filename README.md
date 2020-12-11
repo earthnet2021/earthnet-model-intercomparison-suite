@@ -22,7 +22,7 @@ It incorporates models that have entered the challenge as submodules under `src/
 
 2. We recommend setting up a docker container using our [Dockerfile](Dockerfile). Run `docker build . --tag earthnet2021:1.0`
 
-3. Run a Docker container based on the image created. E.g, `docker run -it earthnet2021:1.0`. Use [the util](scripts/docker_run.sh) to run the container attaching properly all havy directories.
+3. Run a Docker container based on the image created. E.g, `docker run -it earthnet2021:1.0`. Use [the util](scripts/docker_run.sh) to run the container attaching properly all heavy directories.
 
 4. Run JupyterLab `jupyter lab` port 8888 is forwarded to the one defined in [docker_run.sh](scripts/docker_run.sh)
 
