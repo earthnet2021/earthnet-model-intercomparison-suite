@@ -49,7 +49,6 @@ RUN conda install -y python=3.7.7
 RUN python3 -m pip install --upgrade pip 
 RUN python3 -m pip install --upgrade setuptools
 RUN pip3 install numpy
-RUN pip3 install torch torchvision pytorch-lightning
 RUN pip3 install matplotlib tqdm Pillow shapely opencv-python pandas scikit-learn imgaug imantics scipy scikit-image seaborn pandas
 RUN pip3 install netCDF4
 RUN pip3 install earthnet
@@ -69,12 +68,26 @@ RUN pip3 install git+https://gitext.gfz-potsdam.de/danschef/arosics.git
 RUN pip3 install sentinelsat sentinelhub Cartopy
 
 #JupyterLab Set-up
+RUN conda install qt
 RUN conda install -y jupyter jupyterlab
 RUN pip3 install jupytext
 RUN pip3 install jupyter_tensorboard
 RUN pip3 install --upgrade jupyterlab-git
+RUN conda install -y nb_conda_kernels
 #RUN jupyter lab build
 
 #Create the conda environment for Tf_template named ENtf115py36
 RUN conda create --name ENtf115py36 python=3.6
-RUN source activate ENtf115py36 && pip3 install numpy matplotlib scipy sk-video ffmpeg opencv-python scikit-image h5py tensorflow-gpu==1.15
+RUN source activate ENtf115py36 && pip3 install numpy matplotlib scipy sk-video ffmpeg opencv-python scikit-image h5py tensorflow-gpu==1.15 earthnet && conda install -y ipykernel
+
+
+#Create the conda environment for PyTorch_template named ENpt16py38
+RUN conda create --name ENpt16py38 python=3.8.5
+SHELL ["conda", "run", "-n", "ENpt16py38", "/bin/bash", "-c"]
+RUN pip3 install --upgrade pip 
+RUN pip3 install --upgrade setuptools 
+RUN pip3 install numpy==1.19.2 
+RUN pip3 install torch==1.6.0 torchvision==0.7.0 pytorch-lightning==1.1.0
+RUN pip3 install matplotlib==3.3.2 tqdm Pillow shapely opencv-python pandas scikit-learn imgaug imantics scipy scikit-image seaborn pandas
+RUN pip3 install earthnet
+RUN conda install -y ipykernel
