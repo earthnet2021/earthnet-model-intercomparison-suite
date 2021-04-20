@@ -90,4 +90,5 @@ RUN pip3 install numpy==1.19.2
 RUN pip3 install torch==1.6.0 torchvision==0.7.0 pytorch-lightning==1.1.0
 RUN pip3 install matplotlib==3.3.2 tqdm Pillow shapely opencv-python pandas scikit-learn imgaug imantics scipy scikit-image seaborn pandas
 RUN pip3 install earthnet
+RUN pip3 install segmentation-models-pytorch
 RUN conda install -y ipykernel

@@ -1,0 +1,16 @@
+---
+# Mapping from run.py into src/models/pt_template submodule
+entry_point:
+    test: src/models/pt_template/test.py
+    train: src/models/pt_template/train.py
+conda_env: ENpt16py38
+
+#argument-to-pt_template_entry.py: argument to run.py
+mapped_args_train:
+    setting: experiment_settings
+mapped_args_test:
+    setting: experiment_settings
+    checkpoint: checkpoint
+    track: split_name
+    pred_dir: out_expr_dir
+...
