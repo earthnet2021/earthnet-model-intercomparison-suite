@@ -2,7 +2,6 @@
 layout: single
 title: Download
 permalink: /docs/ds-download/
-last_modified_at: 2020-11-29
 toc: true
 sidebar:
   title: "Documentation"

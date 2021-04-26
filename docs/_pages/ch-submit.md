@@ -2,7 +2,6 @@
 layout: single
 title: Submit Your Score
 permalink: /docs/ch-submit/
-last_modified_at: 2020-11-08
 toc: true
 toc_stickly: true
 sidebar:

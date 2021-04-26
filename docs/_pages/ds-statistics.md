@@ -3,7 +3,6 @@ layout: single
 title: Statistics
 class: wide
 permalink: /docs/ds-statistics/
-last_modified_at: 2020-11-29
 sidebar:
   title: "Documentation"
   nav: docs

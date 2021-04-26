@@ -3,7 +3,6 @@ layout: single
 classes: wide
 title: Toolkit Quick-Start
 permalink: /docs/citation/
-last_modified_at: 2020-11-08
 sidebar:
   title: "Getting Started"
   nav: docs

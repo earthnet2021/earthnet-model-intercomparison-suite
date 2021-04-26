@@ -2,7 +2,6 @@
 layout: single
 title: EarthNet2021 Toolkit API - Download
 permalink: /docs/tk-download/
-last_modified_at: 2020-11-29
 toc: true
 toc_stickly: true
 sidebar:

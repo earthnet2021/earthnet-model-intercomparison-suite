@@ -4,7 +4,6 @@ toc: true
 toc_sticky: true
 title: EarthNet2021 challenge - Rules
 permalink: /docs/ch-rules/
-last_modified_at: 2020-11-29
 toc: true
 sidebar:
   title: "Documentation"

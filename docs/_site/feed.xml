@@ -6,9 +6,45 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Dec 2020 17:17:06 +0100</pubDate>
-    <lastBuildDate>Fri, 11 Dec 2020 17:17:06 +0100</lastBuildDate>
+    <pubDate>Mon, 26 Apr 2021 13:51:15 +0200</pubDate>
+    <lastBuildDate>Mon, 26 Apr 2021 13:51:15 +0200</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Meet EarthNet2021 at CVPR EarthVision!</title>
+        <description>&lt;p&gt;We are at CVPR!&lt;/p&gt;
+
+&lt;p&gt;Our extended paper &lt;a href=&quot;https://arxiv.org/abs/2104.10066&quot;&gt;EarthNet2021: A large-scale dataset and challenge for Earth surface forecasting as a guided video prediction task&lt;/a&gt; got accepted to &lt;a href=&quot;http://www.classic.grss-ieee.org/earthvision2021/index.html&quot;&gt;CVPR EarthVision Workshop&lt;/a&gt; 🎉.&lt;/p&gt;
+
+&lt;p&gt;The preprint is now available online on Arxiv.&lt;/p&gt;
+
+&lt;p&gt;We look forward meeting you virtually on June 19, 2021. 🌍🛰&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Apr 2021 15:04:28 +0200</pubDate>
+        <link>http://localhost:4000/conferences/EarthNet2021-is-at-EarthVision/</link>
+        <guid isPermaLink="true">http://localhost:4000/conferences/EarthNet2021-is-at-EarthVision/</guid>
+        
+        
+        <category>Conferences</category>
+        
+      </item>
+    
+      <item>
+        <title>Meet EarthNet2021 at EGU!</title>
+        <description>&lt;p&gt;We are at EGU / vEGU21!&lt;/p&gt;
+
+&lt;p&gt;Christian Requena-Mesa will give a vPICO on “EarthNet2021: Self-supervised impact predictions of extreme weather.” at Session NP5.2 &lt;a href=&quot;https://meetingorganizer.copernicus.org/EGU21/session/39811&quot;&gt;Complex systems science meets machine learning for new approaches to predictions and predictability estimation for geophysical systems&lt;/a&gt;! 🥳&lt;/p&gt;
+
+&lt;p&gt;Listen to the vPICO from 11:13-11:15am CEST and meet us afterwards in the breakout chat from 11:43am-12:30pm.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Apr 2021 15:04:28 +0200</pubDate>
+        <link>http://localhost:4000/conferences/EarthNet2021-is-at-EGU/</link>
+        <guid isPermaLink="true">http://localhost:4000/conferences/EarthNet2021-is-at-EGU/</guid>
+        
+        
+        <category>Conferences</category>
+        
+      </item>
     
       <item>
         <title>We are introducing EarthNet2021 at NeurIPS!</title>

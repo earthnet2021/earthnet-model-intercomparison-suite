@@ -2,7 +2,6 @@
 layout: single
 title: Installation
 permalink: /docs/installation/
-last_modified_at: 2020-11-29
 toc: true
 toc_stickly: true
 sidebar:

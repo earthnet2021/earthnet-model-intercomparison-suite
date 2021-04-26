@@ -2,7 +2,6 @@
 layout: single
 title: Quick-Start Guide
 permalink: /docs/quick-start-guide/
-last_modified_at: 2020-11-29
 toc: true
 toc_sticky: true
 sidebar:

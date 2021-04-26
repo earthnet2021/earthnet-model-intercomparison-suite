@@ -2,7 +2,6 @@
 layout: single
 title: A Quick-Start-Example of the Model Intercomparison Suite
 permalink: /docs/mis-example/
-last_modified_at: 2020-11-29
 toc: true
 toc_stickly: true
 sidebar:
