@@ -16,7 +16,7 @@ In the context of H2020 DeepCube project, we are creating a newer and better dat
 Learn about H2020 DeepCube and drought impact forecasting in Africa in [DeepCube-H2020.eu](https://deepcube-h2020.eu/use-cases/forecasting-localized-extreme-drought-and-heat-impacts-in-africa/)
 {: .notice--info}
 
-You can download the demonstrator minicubes from [Zenodo](link) and a find the specification sheet [here](link).
+You can download the demonstrator minicubes from [Zenodo](https://zenodo.org/record/5079843#.YOgrCegzb-g)
 
 **Attention:** the dataset is provisional and not suitable for scientific applications.
 {: .notice--warning}
