@@ -15,7 +15,7 @@ sidebar:
 
 | **Rank** |      **Model Name**      | **Group Name** |   **MAD**  |   **OLS**  |   **EMD**  |  **SSIM**  | **EarthNetScore** |
 |:----:|:--------------------:|:----------:|:------:|:------:|:------:|:------:|:-------------:|
-| 1    | [Diaconu ConvLSTM](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Diaconu_Understanding_the_Role_of_Weather_Data_for_Earth_Surface_Forecasting_CVPRW_2022_paper.pdf) | [Codrut-Andrei Diaconu]([/about/](https://www.asg.ed.tum.de/en/sipeo/team/codrut-andrei-diaconu/))     | 0.2638 | 0.3513 | 0.2623 |     0.5565  |  0.3266   |
+| 1    | [Diaconu ConvLSTM](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Diaconu_Understanding_the_Role_of_Weather_Data_for_Earth_Surface_Forecasting_CVPRW_2022_paper.pdf) | [Codrut-Andrei Diaconu](https://www.asg.ed.tum.de/en/sipeo/team/codrut-andrei-diaconu/)     | 0.2638 | 0.3513 | 0.2623 |     0.5565  |  0.3266   |
 | 2    | [SGConvLSTM](https://www.biorxiv.org/content/10.1101/2022.08.16.504173v1.full.pdf) | [ETH Zurich](https://usys.ethz.ch/en/people/profile.MTUxNjQ5.TGlzdC8yODUyLDMyMDE5NzIyMg==.html)     | 0.2589 | 0.3456 | 0.2533 |     0.5292    | 0.3176 |
 | 3    | [SGEDConvLSTM](https://www.biorxiv.org/content/10.1101/2022.08.16.504173v1.full.pdf) | [ETH Zurich](https://usys.ethz.ch/en/people/profile.MTUxNjQ5.TGlzdC8yODUyLDMyMDE5NzIyMg==.html)     | 0.2580 | 0.3440 | 0.2532 | 0.5237 |     0.3164    |
 | 4    | [Channel-U-Net Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2482 | 0.3381 | 0.2336 |     0.3973  | 0.2902   |
@@ -32,12 +32,15 @@ sidebar:
 
 | **Rank** |      **Model Name**      | **Group Name** |   **MAD**  |   **OLS**  |   **EMD**  |  **SSIM**  | **EarthNetScore** |
 |:----:|:--------------------:|:----------:|:------:|:------:|:------:|:------:|:-------------:|
-| 1    | [Channel-U-Net Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2402 | 0.3390 | 0.2371 | 0.3721 |     0.2854    |
-| 2    | [Arcon Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2314 | 0.3088 | 0.2177 | 0.3432 |     0.2655    |
-| 3    | [Persistence Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2248 | 0.3236 | 0.2123 | 0.3112 |     0.2587    |
-| 4    |                      |            |        |        |        |        |               |
-| 5    |                      |            |        |        |        |        |               |
-| 6    |                      |            |        |        |        |        |               |
+| 1    | [Diaconu ConvLSTM](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Diaconu_Understanding_the_Role_of_Weather_Data_for_Earth_Surface_Forecasting_CVPRW_2022_paper.pdf) | [Codrut-Andrei Diaconu](https://www.asg.ed.tum.de/en/sipeo/team/codrut-andrei-diaconu/)     | 0.2541 | 0.3522 | 0.2660 |     0.5125  |   0.3204   |
+| 2    | [SGConvLSTM](https://www.biorxiv.org/content/10.1101/2022.08.16.504173v1.full.pdf) | [ETH Zurich](https://usys.ethz.ch/en/people/profile.MTUxNjQ5.TGlzdC8yODUyLDMyMDE5NzIyMg==.html)     | 0.2512 | 0.3481 | 0.2597 |     0.4977    | 0.3146 |
+| 3    | [SGEDConvLSTM](https://www.biorxiv.org/content/10.1101/2022.08.16.504173v1.full.pdf) | [ETH Zurich](https://usys.ethz.ch/en/people/profile.MTUxNjQ5.TGlzdC8yODUyLDMyMDE5NzIyMg==.html)     | 0.2497 | 0.3450 | 0.2587 | 0.4887 |     0.3121    |
+| 4    | [Channel-U-Net Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2402 | 0.3390 | 0.2371 | 0.3721 |     0.2854    |
+| 5    | [Arcon Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2314 | 0.3088 | 0.2177 | 0.3432 |     0.2655    |
+| 6    | [Persistence Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2248 | 0.3236 | 0.2123 | 0.3112 |     0.2587    |
+| 7    |                      |            |        |        |        |        |               |
+| 8    |                      |            |        |        |        |        |               |
+| 9    |                      |            |        |        |        |        |               |
 
 
 
