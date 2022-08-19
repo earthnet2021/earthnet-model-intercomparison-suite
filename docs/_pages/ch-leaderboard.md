@@ -48,12 +48,15 @@ sidebar:
 
 | **Rank** |      **Model Name**      | **Group Name** |   **MAD**  |   **OLS**  |   **EMD**  |  **SSIM**  | **EarthNetScore** |
 |:----:|:--------------------:|:----------:|:------:|:------:|:------:|:------:|:-------------:|
-| 1    | [Channel-U-Net Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2286 | 0.2973 | 0.2065 | 0.2306 |     0.2364    |
-| 2    | [Arcon Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2243 | 0.2753 | 0.1975 | 0.2084 |     0.2215    |
-| 3    | [Persistence Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2158 | 0.2806 | 0.1614 | 0.1605 |     0.1939    |
-| 4    |                      |            |        |        |        |        |               |
-| 5    |                      |            |        |        |        |        |               |
-| 6    |                      |            |        |        |        |        |               |
+| 1    | [SGConvLSTM](https://www.biorxiv.org/content/10.1101/2022.08.16.504173v1.full.pdf) | [ETH Zurich](https://usys.ethz.ch/en/people/profile.MTUxNjQ5.TGlzdC8yODUyLDMyMDE5NzIyMg==.html)     | 0.2366 | 0.3199 | 0.2279 |     0.3497    | 0.2740 |
+| 2    | [SGEDConvLSTM](https://www.biorxiv.org/content/10.1101/2022.08.16.504173v1.full.pdf) | [ETH Zurich](https://usys.ethz.ch/en/people/profile.MTUxNjQ5.TGlzdC8yODUyLDMyMDE5NzIyMg==.html)     | 0.2304 | 0.3164 | 0.2186 | 0.2993 |     0.2595    |
+| 3    | [Channel-U-Net Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2286 | 0.2973 | 0.2065 | 0.2306 |     0.2364    |
+| 4    | [Arcon Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2243 | 0.2753 | 0.1975 | 0.2084 |     0.2215    |
+| 5    | [Diaconu ConvLSTM](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Diaconu_Understanding_the_Role_of_Weather_Data_for_Earth_Surface_Forecasting_CVPRW_2022_paper.pdf) | [Codrut-Andrei Diaconu](https://www.asg.ed.tum.de/en/sipeo/team/codrut-andrei-diaconu/)     | 0.2137 | 0.2906 | 0.1879 |     0.1904  |   0.2140   |
+| 6    | [Persistence Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2158 | 0.2806 | 0.1614 | 0.1605 |     0.1939    |
+| 7    |                      |            |        |        |        |        |               |
+| 8    |                      |            |        |        |        |        |               |
+| 9    |                      |            |        |        |        |        |               |
 
 
 
