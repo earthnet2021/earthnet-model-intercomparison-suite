@@ -3,4 +3,4 @@
 	url = https://github.com/crequena/earthnet-tf-template.git
 [submodule "src/models/pt_template"]
 	path = src/models/pt_template
-	url = git@github.com:vitusbenson/earthnet-pytorch-template.git
+	url = https://github.com/crequena/vitusbenson/earthnet-pytorch-template.git
