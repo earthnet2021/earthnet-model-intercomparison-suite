@@ -5,7 +5,7 @@ toc_sticky: true
 toc_label: Test Tracks
 title: EarthNet2021 Challenge - Leaderboard
 permalink: /docs/ch-leaderboard/
-last_modified_at: 2022-08-19
+last_modified_at: 2022-11-04
 sidebar:
   title: "Documentation"
   nav: docs
@@ -15,13 +15,13 @@ sidebar:
 
 | **Rank** |      **Model Name**      | **Group Name** |   **MAD**  |   **OLS**  |   **EMD**  |  **SSIM**  | **EarthNetScore** |
 |:----:|:--------------------:|:----------:|:------:|:------:|:------:|:------:|:-------------:|
-| 1    | [Diaconu ConvLSTM](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Diaconu_Understanding_the_Role_of_Weather_Data_for_Earth_Surface_Forecasting_CVPRW_2022_paper.pdf) | [TUM](https://www.asg.ed.tum.de/en/sipeo/team/codrut-andrei-diaconu/)     | 0.2638 | 0.3513 | 0.2623 |     0.5565  |  0.3266   |
-| 2    | [SGConvLSTM](https://www.biorxiv.org/content/10.1101/2022.08.16.504173v1.full.pdf) | [ETH Zurich](https://usys.ethz.ch/en/people/profile.MTUxNjQ5.TGlzdC8yODUyLDMyMDE5NzIyMg==.html)     | 0.2589 | 0.3456 | 0.2533 |     0.5292    | 0.3176 |
-| 3    | [SGEDConvLSTM](https://www.biorxiv.org/content/10.1101/2022.08.16.504173v1.full.pdf) | [ETH Zurich](https://usys.ethz.ch/en/people/profile.MTUxNjQ5.TGlzdC8yODUyLDMyMDE5NzIyMg==.html)     | 0.2580 | 0.3440 | 0.2532 | 0.5237 |     0.3164    |
-| 4    | [Channel-U-Net Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2482 | 0.3381 | 0.2336 |     0.3973  | 0.2902   |
-| 5    | [Arcon Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2414 | 0.3216 | 0.2258 |     0.3863    | 0.2803 |
-| 6    | [Persistence Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2315 | 0.3239 | 0.2099 | 0.3265 |     0.2625    |
-| 7    |                      |            |        |        |        |        |               |
+| 1    | [Earthformer](https://openreview.net/forum?id=lzZstLVGVGW) | [Earthformer-Team](https://github.com/amazon-science/earth-forecasting-transformer) | 0.2749 | 0.3619 | 0.2701 | 0.6350 | 0.3425 |
+| 2    | [Diaconu ConvLSTM](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Diaconu_Understanding_the_Role_of_Weather_Data_for_Earth_Surface_Forecasting_CVPRW_2022_paper.pdf) | [TUM](https://www.asg.ed.tum.de/en/sipeo/team/codrut-andrei-diaconu/)     | 0.2638 | 0.3513 | 0.2623 |     0.5565  |  0.3266   |
+| 3    | [SGConvLSTM](https://www.biorxiv.org/content/10.1101/2022.08.16.504173v1.full.pdf) | [ETH Zurich](https://usys.ethz.ch/en/people/profile.MTUxNjQ5.TGlzdC8yODUyLDMyMDE5NzIyMg==.html)     | 0.2589 | 0.3456 | 0.2533 |     0.5292    | 0.3176 |
+| 4    | [SGEDConvLSTM](https://www.biorxiv.org/content/10.1101/2022.08.16.504173v1.full.pdf) | [ETH Zurich](https://usys.ethz.ch/en/people/profile.MTUxNjQ5.TGlzdC8yODUyLDMyMDE5NzIyMg==.html)     | 0.2580 | 0.3440 | 0.2532 | 0.5237 |     0.3164    |
+| 5    | [Channel-U-Net Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2482 | 0.3381 | 0.2336 |     0.3973  | 0.2902   |
+| 6    | [Arcon Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2414 | 0.3216 | 0.2258 |     0.3863    | 0.2803 |
+| 7    | [Persistence Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2315 | 0.3239 | 0.2099 | 0.3265 |     0.2625    |
 | 8    |                      |            |        |        |        |        |               |
 | 9    |                      |            |        |        |        |        |               |
 
@@ -32,13 +32,13 @@ sidebar:
 
 | **Rank** |      **Model Name**      | **Group Name** |   **MAD**  |   **OLS**  |   **EMD**  |  **SSIM**  | **EarthNetScore** |
 |:----:|:--------------------:|:----------:|:------:|:------:|:------:|:------:|:-------------:|
-| 1    | [Diaconu ConvLSTM](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Diaconu_Understanding_the_Role_of_Weather_Data_for_Earth_Surface_Forecasting_CVPRW_2022_paper.pdf) | [TUM](https://www.asg.ed.tum.de/en/sipeo/team/codrut-andrei-diaconu/)     | 0.2541 | 0.3522 | 0.2660 |     0.5125  |   0.3204   |
-| 2    | [SGConvLSTM](https://www.biorxiv.org/content/10.1101/2022.08.16.504173v1.full.pdf) | [ETH Zurich](https://usys.ethz.ch/en/people/profile.MTUxNjQ5.TGlzdC8yODUyLDMyMDE5NzIyMg==.html)     | 0.2512 | 0.3481 | 0.2597 |     0.4977    | 0.3146 |
-| 3    | [SGEDConvLSTM](https://www.biorxiv.org/content/10.1101/2022.08.16.504173v1.full.pdf) | [ETH Zurich](https://usys.ethz.ch/en/people/profile.MTUxNjQ5.TGlzdC8yODUyLDMyMDE5NzIyMg==.html)     | 0.2497 | 0.3450 | 0.2587 | 0.4887 |     0.3121    |
-| 4    | [Channel-U-Net Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2402 | 0.3390 | 0.2371 | 0.3721 |     0.2854    |
-| 5    | [Arcon Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2314 | 0.3088 | 0.2177 | 0.3432 |     0.2655    |
-| 6    | [Persistence Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2248 | 0.3236 | 0.2123 | 0.3112 |     0.2587    |
-| 7    |                      |            |        |        |        |        |               |
+| 1    | [Earthformer](https://openreview.net/forum?id=lzZstLVGVGW) | [Earthformer-Team](https://github.com/amazon-science/earth-forecasting-transformer) | 0.2533 | 0.3581 | 0.2732 | 0.5270 | 0.3252 |
+| 2    | [Diaconu ConvLSTM](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Diaconu_Understanding_the_Role_of_Weather_Data_for_Earth_Surface_Forecasting_CVPRW_2022_paper.pdf) | [TUM](https://www.asg.ed.tum.de/en/sipeo/team/codrut-andrei-diaconu/)     | 0.2541 | 0.3522 | 0.2660 |     0.5125  |   0.3204   |
+| 3    | [SGConvLSTM](https://www.biorxiv.org/content/10.1101/2022.08.16.504173v1.full.pdf) | [ETH Zurich](https://usys.ethz.ch/en/people/profile.MTUxNjQ5.TGlzdC8yODUyLDMyMDE5NzIyMg==.html)     | 0.2512 | 0.3481 | 0.2597 |     0.4977    | 0.3146 |
+| 4    | [SGEDConvLSTM](https://www.biorxiv.org/content/10.1101/2022.08.16.504173v1.full.pdf) | [ETH Zurich](https://usys.ethz.ch/en/people/profile.MTUxNjQ5.TGlzdC8yODUyLDMyMDE5NzIyMg==.html)     | 0.2497 | 0.3450 | 0.2587 | 0.4887 |     0.3121    |
+| 5    | [Channel-U-Net Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2402 | 0.3390 | 0.2371 | 0.3721 |     0.2854    |
+| 6    | [Arcon Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2314 | 0.3088 | 0.2177 | 0.3432 |     0.2655    |
+| 7    | [Persistence Baseline](https://arxiv.org/pdf/2104.10066.pdf) | [EN-Team](/about/)     | 0.2248 | 0.3236 | 0.2123 | 0.3112 |     0.2587    |
 | 8    |                      |            |        |        |        |        |               |
 | 9    |                      |            |        |        |        |        |               |
 
