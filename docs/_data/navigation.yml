@@ -1,13 +1,11 @@
 # main links
 main:
-  - title: "Documentation"
-    url: /docs/quick-start-guide/
-  - title: "Leaderboard"
-    url: /docs/ch-leaderboard/
-  - title: "Task"
-    url: /docs/ch-task/
-  - title: "Download"
-    url: /docs/ds-download/
+  - title: "EN2021"
+    url: /en21/quick-start-guide/
+  - title: "EN2021x"
+    url: /en21x/quick-start-guide/
+  - title: "EN2023"
+    url: /en23/quick-start-guide/
   - title: "Blog"
     url: /blog/
   - title: "License"
@@ -16,66 +14,55 @@ main:
     url: /about/
 
 docs:
-  - title: "Quick-Start-Guide"
-    url: /docs/quick-start-guide/
+  - title: "EN2021"
+    url: /en21/quick-start-guide/
     children:
       - title: "Overview"
-        url: /docs/quick-start-guide/
+        url: /en21/quick-start-guide/
       - title: "Installation"
-        url: /docs/installation/
+        url: /en21/installation/
 
   - title: "Dataset"
-    url: /docs/ds-download/
+    url: /en21/ds-download/
     children:
       - title: "Download"
-        url: /docs/ds-download/
+        url: /en21/ds-download/
       - title: "Structure"
-        url: /docs/ds-structure/
+        url: /en21/ds-structure/
       - title: "Specifications"
-        url: /docs/ds-specifications/
-      - title: "Example"
-        url: /docs/ds-example/
-      - title: "Statistics"
-        url: /docs/ds-statistics/
+        url: /en21/ds-specifications/
 
   - title: "Toolkit"
-    url: /docs/tk-overview/
+    url: /en21/tk-overview/
     children:
       - title: "Overview"
-        url: /docs/tk-overview/
+        url: /en21/tk-overview/
       - title: "Download"
-        url: /docs/tk-download/
+        url: /en21/tk-download/
       - title: "EarthNetScore"
-        url: /docs/tk-earthnetscore/
+        url: /en21/tk-earthnetscore/
 
   - title: "Intercomparison Suite"
-    url: /docs/mis-installation
+    url: /en21/mis-installation
     children:
       - title: "Installation"
-        url: /docs/mis-installation
+        url: /en21/mis-installation
       - title: "Example"
-        url: /docs/mis-example
-      - title: "Templates"
-        url: /docs/mis-templates
-      - title: "Intercomparison"
-        url: /docs/mis-intercomparison
+        url: /en21/mis-example
       - title: "Integrate your model"
-        url: /docs/mis-yourmodel
+        url: /en21/mis-yourmodel
 
   - title: "Challenge"
-    url: /docs/rules/
+    url: /en21/rules/
     children:
       - title: "Earth Surface forecasting"
-        url: /docs/ch-task/
-      - title: "Rules"
-        url: /docs/ch-rules/
+        url: /en21/ch-task/
       - title: "Tracks"
-        url: /docs/ch-tracks/
-      - title: "Evaluation"
-        url: /docs/ch-evaluation/
+        url: /en21/ch-tracks/
       - title: "Submit"
-        url: /docs/ch-submit/
+        url: /en21/ch-submit/
       - title: "Leaderboard"
-        url: /docs/ch-leaderboard/
+        url: /en21/ch-leaderboard/
+        
   - title: Cite us
-    url: /docs/citation/
+    url: /en21/citation/
