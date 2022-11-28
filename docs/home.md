@@ -5,7 +5,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/en-home-overlay.png
   cta_label: "<i class='fa fa-download'></i> Install Now"
-  cta_url: "/docs/quick-start-guide/"
+  cta_url: "/en21/quick-start-guide/"
   caption:
 excerpt: 'A machine learning challenge and dataset for Earth surface and localized impact forecasting.<br /> <small><a href="https://arxiv.org/abs/2104.10066">CVPR 2021 EarthVision paper</a></small><br /> <small><a href="https://github.com/earthnet2021/earthnet-model-intercomparison-suite/releases/tag/v0.1.0">Latest Model Intercomparison Suite release v0.1.0</a></small><br /><small><a href="https://pypi.org/project/earthnet/">Latest Toolkit release v0.2.3</a></small><br />'
 feature_row:
@@ -13,14 +13,14 @@ feature_row:
     alt: "earth surface forecasting"
     title: "Earth surface forecasting"
     excerpt: "Using Machine Learning to forecast the dynamics of Earth's surface, we can predict crop yield, forest health, the effects of a drought and more."
-    url: "/docs/ch-task/"
+    url: "/en21/ch-task/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/en-feature-2-pt-tf.png
     alt: "templates"
     title: "Deep learning templates"
     excerpt: "Any method is welcome in the challenge. Our toolkit provides functional templates for Pytorch and Tensorflow developers.<br /><br />"
-    url: "/docs/mis-templates/"
+    url: "/en21/mis-installation/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/en-feature-3-opensource.png

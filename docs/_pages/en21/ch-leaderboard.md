@@ -7,8 +7,8 @@ title: EarthNet2021 Challenge - Leaderboard
 permalink: /en21/ch-leaderboard/
 last_modified_at: 2022-11-04
 sidebar:
-  title: "EarthNet2021"
-  nav: en21
+  title: "Documentation"
+  nav: docs
 ---
 
 ## Main (IID)

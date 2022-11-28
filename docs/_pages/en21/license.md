@@ -2,7 +2,10 @@
 layout: single
 classes: wide
 title: License
-permalink: /license/
+permalink: /en21/license/
+sidebar:
+  title: "EarthNet2021"
+  nav: en21
 ---
 
 EarthNet2021 is shared under **CC-BY-NC-SA 4.0**.
