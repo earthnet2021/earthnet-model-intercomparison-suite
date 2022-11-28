@@ -13,7 +13,7 @@ main:
   - title: "About"
     url: /about/
 
-docs:
+en21:
   - title: "EN2021"
     url: /en21/quick-start-guide/
     children:
