@@ -7,7 +7,7 @@ header:
   cta_label: "<i class='fa fa-download'></i> Install Now"
   cta_url: "/en21/quick-start-guide/"
   caption:
-excerpt: 'A machine learning challenge and dataset for Earth surface and localized impact forecasting.<br /> <small><a href="https://arxiv.org/abs/2104.10066">CVPR 2021 EarthVision paper</a></small><br /> <small><a href="https://github.com/earthnet2021/earthnet-model-intercomparison-suite/releases/tag/v0.1.0">Latest Model Intercomparison Suite release v0.1.0</a></small><br /><small><a href="https://pypi.org/project/earthnet/">Latest Toolkit release v0.2.3</a></small><br />'
+excerpt: 'A machine learning challenge and dataset for Earth surface and localized impact forecasting.<br /> <small><a href="https://arxiv.org/abs/2104.10066">CVPR 2021 EarthVision paper</a></small><br /> <small><a href="https://www.earthnet.tech/en21x/download/">Updated Dataset EarthNet2021x</a></small><br /><small><a href="https://arxiv.org/abs/2210.13648">Pilot Study in Africa</a></small><br />'
 feature_row:
   - image_path: /assets/images/en-feature-1-satellite.png
     alt: "earth surface forecasting"
