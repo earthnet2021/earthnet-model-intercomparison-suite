@@ -5,7 +5,7 @@ classes: wide
 permalink: /en23/ds-africa/
 sidebar:
   title: "EarthNet2021"
-  nav: en21
+  nav: en23
 ---
 ![DeepCube UC1 Banner](/assets/images/UC1-banner.PNG "DeepCube UC1 Banner")
 
@@ -22,7 +22,10 @@ You can download the demonstrator minicubes from [Zenodo](https://zenodo.org/rec
 {: .notice--warning}
 
 
-The final version of the dataset might be released at a future date as a new iteration of the EarthNet initiative (e.g., EarthNet2022: Africa). To keep yourself informed about future releases you can follow us in Twitter [@EarthNetTeam](https://twitter.com/EarthNetTeam)
+The final version of the dataset might be released at a future date as a new iteration of the EarthNet initiative (e.g., EarthNet2023: Africa). To keep yourself informed about future releases you can follow us in Twitter [@EarthNetTeam](https://twitter.com/EarthNetTeam)
+
+
+A pilot study in Africa is now availble on Arxiv: [Learning to forecast vegetation greenness at fine resolution over Africa with ConvLSTMs](https://arxiv.org/abs/2210.13648).
 
 
 <img src="/assets/images/eu-flag.PNG" alt="drawing" width="50"/> This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101004188.
