@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title: Toolkit Quick-Start
+title: Cite Us
 permalink: /en21x/citation/
 sidebar:
   title: "Getting Started"

@@ -69,56 +69,18 @@ en21:
     url: /en21/license/
 
 en21x:
-  - title: "EN2021"
-    url: /en21x/quick-start-guide/
-    children:
-      - title: "Overview"
-        url: /en21x/quick-start-guide/
-      - title: "Installation"
-        url: /en21x/installation/
+  - title: "Download"
+    url: /en21x/download/
 
   - title: "Dataset"
-    url: /en21x/ds-download/
-    children:
-      - title: "Download"
-        url: /en21x/ds-download/
-      - title: "Structure"
-        url: /en21x/ds-structure/
-      - title: "Specifications"
-        url: /en21x/ds-specifications/
+    url: /en21x/data/
 
-  - title: "Toolkit"
-    url: /en21x/tk-overview/
-    children:
-      - title: "Overview"
-        url: /en21x/tk-overview/
-      - title: "Download"
-        url: /en21x/tk-download/
-      - title: "EarthNetScore"
-        url: /en21x/tk-earthnetscore/
+  - title: "Scoring"
+    url: /en21x/scoring/
 
-  - title: "Intercomparison Suite"
-    url: /en21x/mis-installation
-    children:
-      - title: "Installation"
-        url: /en21x/mis-installation
-      - title: "Example"
-        url: /en21x/mis-example
-      - title: "Integrate your model"
-        url: /en21x/mis-yourmodel
+  - title: "Leaderboard"
+    url: /en21x/leaderboard/
 
-  - title: "Challenge"
-    url: /en21x/rules/
-    children:
-      - title: "Earth Surface forecasting"
-        url: /en21x/ch-task/
-      - title: "Tracks"
-        url: /en21x/ch-tracks/
-      - title: "Submit"
-        url: /en21x/ch-submit/
-      - title: "Leaderboard"
-        url: /en21x/ch-leaderboard/
-        
   - title: Cite us
     url: /en21x/citation/
     
