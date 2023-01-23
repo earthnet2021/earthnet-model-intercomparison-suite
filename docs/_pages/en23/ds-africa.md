@@ -31,5 +31,5 @@ A pilot study in Africa is now availble on Arxiv: [Learning to forecast vegetati
 <img src="/assets/images/eu-flag.PNG" alt="drawing" width="50"/> This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101004188.
 {: .notice--info}
 
-<iframe src="https://raw.githubusercontent.com/earthnet2021/earthnet-model-intercomparison-suite/gh-pages/docs/_includes/earthnet2023_map.html" height="500" width="500"></iframe>
+<iframe src="_includes/earthnet2023_map.html" height="600px" width="100%"></iframe>
 
