@@ -33,6 +33,7 @@ feature_row:
 ---
 {% include feature_row %}
 
+<h1> Latest News</h1>
 <div class="grid__wrapper">
   {% for post in site.posts limit:3 %}
     {% include archive-single.html %}
