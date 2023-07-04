@@ -33,3 +33,8 @@ feature_row:
 ---
 {% include feature_row %}
 
+<div class="grid__wrapper">
+  {% for post in site.posts limit:4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
