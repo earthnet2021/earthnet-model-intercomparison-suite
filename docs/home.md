@@ -7,7 +7,7 @@ header:
   cta_label: "<i class='fa fa-download'></i> Install Now"
   cta_url: "/en21/quick-start-guide/"
   caption:
-excerpt: 'A machine learning challenge and dataset for Earth surface and localized impact forecasting.<br /> <small><a href="https://arxiv.org/abs/2303.16198v2">GreenEarthNet - accepted at CVPR 2024</a></small><br /> <small><a href="https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Requena-Mesa_EarthNet2021_A_Large-Scale_Dataset_and_Challenge_for_Earth_Surface_Forecasting_CVPRW_2021_paper.html">EarthNet2021 - CVPR 2021 EarthVision paper</a></small><br /> <small><a href="https://www.earthnet.tech/en21x/download/">Updated Dataset EarthNet2021x</a></small><br /><small><a href="https://arxiv.org/abs/2210.13648">ConvLSTM over Africa - NeurIPS 2022 HADR.AI workshop</a></small><br />'
+excerpt: 'A machine learning challenge and dataset for Earth surface and localized impact forecasting.<br /> <small><a href="https://arxiv.org/abs/2303.16198v2">GreenEarthNet - accepted at CVPR 2024</a></small><br /> <small><a href="https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Requena-Mesa_EarthNet2021_A_Large-Scale_Dataset_and_Challenge_for_Earth_Surface_Forecasting_CVPRW_2021_paper.html">EarthNet2021 - CVPR 2021 EarthVision paper</a></small><br /> <small><a href="https://arxiv.org/abs/2210.13648">ConvLSTM over Africa - NeurIPS 2022 HADR.AI workshop</a></small><br />'
 feature_row:
   - image_path: /assets/images/en-feature-1-satellite.png
     alt: "earth surface forecasting"

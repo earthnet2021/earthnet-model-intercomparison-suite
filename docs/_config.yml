@@ -104,7 +104,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:earthnet.team@gmail.com"
+      url: "mailto:vbenson@bgc-jena.mpg.de,crobin@bgc-jena.mpg.de"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.earthnet.tech"
