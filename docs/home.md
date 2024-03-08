@@ -5,7 +5,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/en-home-overlay.png
   cta_label: "<i class='fa fa-download'></i> Install Now"
-  cta_url: "/en21/quick-start-guide/"
+  cta_url: "/en21x/download/"
   caption:
 excerpt: 'A machine learning challenge and dataset for Earth surface and localized impact forecasting.<br /> <small><a href="https://arxiv.org/abs/2303.16198v2">GreenEarthNet - accepted at CVPR 2024</a></small><br /> <small><a href="https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Requena-Mesa_EarthNet2021_A_Large-Scale_Dataset_and_Challenge_for_Earth_Surface_Forecasting_CVPRW_2021_paper.html">EarthNet2021 - CVPR 2021 EarthVision paper</a></small><br /> <small><a href="https://arxiv.org/abs/2210.13648">ConvLSTM over Africa - NeurIPS 2022 HADR.AI workshop</a></small><br />'
 feature_row:
@@ -17,17 +17,17 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/en-feature-2-pt-tf.png
-    alt: "templates"
-    title: "Deep learning templates"
-    excerpt: "Any method is welcome in the challenge. Our toolkit provides functional templates for Pytorch and Tensorflow developers.<br /><br />"
-    url: "/en21/mis-installation/"
+    alt: "earthnet-models-pytorch"
+    title: "EarthNet Models PyTorch"
+    excerpt: 'Perform training and inference of deep neural networkswith the EarthNet Models PyTorch Python package.{::nomarkdown}<p style="margin-top: -5px;margin-bottom: 0px"><iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=earthnet2021&repo=earthnet-models-pytorch&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe><iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=earthnet2021&repo=earthnet-models-pytorch&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe></p>{:/nomarkdown}'
+    url: "https://github.com/earthnet2021/earthnet-models-pytorch"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/en-feature-3-opensource.png
-    alt: "open source"
-    title: "Open source"
-    excerpt: 'The EarthNet toolkit and dataset are free to access, modify and distribute.{::nomarkdown}<p style="margin-top: -5px;margin-bottom: 0px"><iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=earthnet2021&repo=earthnet-models-pytorch&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe><iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=earthnet2021&repo=earthnet-models-pytorch&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe></p>{:/nomarkdown}'
-    url: "https://github.com/earthnet2021/earthnet-models-pytorch"
+    alt: "earthnet-minicuber"
+    title: "EarthNet Minicuber"
+    excerpt: 'Generate new analysis-ready minicubes at any place on Earth using the EarthNet Minicuber Python package.{::nomarkdown}<p style="margin-top: -5px;margin-bottom: 0px"><iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=earthnet2021&repo=earthnet-minicuber&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe><iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=earthnet2021&repo=earthnet-minicuber&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe></p>{:/nomarkdown}'
+    url: "https://github.com/earthnet2021/earthnet-minicuber"
     btn_class: "btn--primary"
     btn_label: "Learn more" 
 ---
