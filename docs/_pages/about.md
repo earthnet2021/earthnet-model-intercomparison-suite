@@ -12,6 +12,7 @@ Current EarthNet team members:
 * [Claire Robin](https://www.bgc-jena.mpg.de/person/122552) <sup>1,2,3</sup>
 * [Vitus Benson](https://vitusbenson.github.io/) <sup>1,2</sup>
 * [Lazaro Alonso](https://lazarusa.github.io/) <sup>1</sup>
+* [Prasoon Pandey](https://www.linkedin.com/in/prasoon-pandey-7026271a3/)  <sup>1</sup>
 * [Mélanie Weynants](https://www.bgc-jena.mpg.de/person/mweynants/4955530) <sup>1</sup>
 * [Markus Reichstein](https://www.bgc-jena.mpg.de/reichstein.html) <sup>1,2</sup>
 * [Nuno Carvalhais](https://www.bgc-jena.mpg.de/person/121289/4955530) <sup>1,2</sup>
