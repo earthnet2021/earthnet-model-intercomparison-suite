@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "EarthNet Challenge"
+title                    : "EarthNet Initiative"
 title_separator          : "-"
-subtitle                 : "A challenge for Earth surface forecasting" # site tagline that appears below site title in masthead
+subtitle                 : "Towards Earth surface forecasting" # site tagline that appears below site title in masthead
 name                     : "EN-Team"
 description              : > # this means to ignore newlines until "url:"
   EarthNet is a groundbreaking challenge and dataset to 

@@ -1,11 +1,11 @@
 ---
 layout: single
-title: EarthNet2021x Scoring
+title: GreenEarthNet Scoring
 permalink: /en21x/scoring/
 toc: true
 toc_stickly: true
 sidebar:
-  title: "EarthNet2021X"
+  title: "GreenEarthNet"
   nav: en21x
 ---
 
@@ -35,7 +35,7 @@ print(df.describe())
 
 ## Vegetation Score
 
-EarthNet2021x uses a vegetation score to benchmark different models.
+GreenEarthNet uses a vegetation score to benchmark different models.
 
 It is the average [Nash Sutcliffe Model Efficiency](https://en.wikipedia.org/wiki/Nash%E2%80%93Sutcliffe_model_efficiency_coefficient) (sometimes equivalent to the [Coefficient of Determination R^2](https://en.wikipedia.org/wiki/Coefficient_of_determination)) on cloud-free observations of Vegetation Pixels.
 

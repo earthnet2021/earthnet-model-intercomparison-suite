@@ -2,7 +2,7 @@
 main:
   - title: "EN2021"
     url: /en21/quick-start-guide/
-  - title: "EN2021x"
+  - title: "GreenEarthNet"
     url: /en21x/download/
   - title: "EN2023"
     url: /en23/ds-africa/
@@ -78,8 +78,8 @@ en21x:
   - title: "Scoring"
     url: /en21x/scoring/
 
-  - title: "Leaderboard"
-    url: /en21x/leaderboard/
+  # - title: "Leaderboard"
+  #   url: /en21x/leaderboard/
 
   - title: Cite us
     url: /en21x/citation/

@@ -8,18 +8,19 @@ sidebar:
   nav: en21x
 ---
 
-We are very pleased to present EarthNet to the community. Please cite our work using one of the following methods
+We are very pleased to present GreenEarthNet to the community. Please cite our work using one of the following methods
 
 ### Bibtex
 ```latex
-@InProceedings{Requena_2021_CVPR_Workshops,
-author = {Requena-Mesa, Christian and Benson, Vitus and Reichstein, Markus and Runge, Jakob and Denzler, Joachim},
-title = {EarthNet2021: A large-scale dataset and challenge for Earth surface forecasting as a guided video prediction task},
-booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-month = {June},
-year = {2021}
+@article{benson2024multimodal,
+  title = {Multi-modal learning for geospatial vegetation forecasting},
+  author = {Benson, Vitus and Robin, Claire and Requena-Mesa, Christian and Alonso, Lazaro and Carvalhais, Nuno and Cortés, José and Gao, Zhihan and Linscheid, Nora and Weynants, Mélanie and Reichstein, Markus},
+  year = {2024},
+  month = jun,
+  journal = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
 }
 ```
 ### Other
 
-Christian Requena-Mesa, Vitus Benson, Markus Reichstein, Jakob Runge and Joachim Denzler. EarthNet2021: A large-scale dataset and challenge for Earth surface forecasting as a guided video prediction task. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2021.
+Vitus Benson, Claire Robin, Christian Requena-Mesa, Lazaro Alonso, Nuno Carvalhais, José Cortés, Zhihan Gao, Nora Linscheid, Mélanie Weynants and Markus Reichstein. Multi-modal learning for geospatial vegetation forecasting
+. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024.

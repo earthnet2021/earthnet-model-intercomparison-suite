@@ -3,11 +3,11 @@ layout: single
 toc: true
 toc_sticky: true
 toc_label: Test Tracks
-title: EarthNet2021x Challenge - Leaderboard
+title: GreenEarthNet Challenge - Leaderboard
 permalink: /en21x/leaderboard/
 last_modified_at: 2022-11-28
 sidebar:
-  title: "EarthNet2021X"
+  title: "GreenEarthNet"
   nav: en21x
 ---
 

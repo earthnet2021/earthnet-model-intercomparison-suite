@@ -4,13 +4,15 @@ title: Dataset Specifications
 permalink: /en21x/data/
 toc: true
 sidebar:
-  title: "EarthNet2021X"
+  title: "GreenEarthNet"
   nav: en21x
 ---
 
+[![arXiv](https://img.shields.io/badge/arXiv-2303.16198-b31b1b.svg)](https://arxiv.org/abs/2303.16198)
+
 ## Overview
 
-EarthNet2021x is an updated version of the EarthNet2021 dataset. Improvements are mainly:
+[GreenEarthNet](https://arxiv.org/abs/2303.16198) is an updated version of the EarthNet2021 dataset. Improvements are mainly:
 
 - Files are now netCDF (having proper georeferencing)
 - Landcover map included
@@ -20,9 +22,11 @@ EarthNet2021x is an updated version of the EarthNet2021 dataset. Improvements ar
 
 It contains the same locations of minicubes that were present in EarthNet2021.
 
+> **_NOTE:_**  In the paper the dataset is called **GreenEarthNet**, but in the codebase you will also find the following acronyms that were used during development: `earthnet2021x`, `en21x`.
+
 ## One Minicube
 
-One Minicube (one sample) of EarthNet2021x contains 20 variables of different dimensions:
+One Minicube (one sample) of GreenEarthNet contains 20 variables of different dimensions:
 
 - Spatio-temporal:
     - Sentinel 2
@@ -97,7 +101,7 @@ Instead of `mean()`, you may use other aggregation functions such as `min()` or 
 
 ## Folder structure
 
-After downloading EarthNet2021x to your `data_dir`, you will have the following folder structure:
+After downloading GreenEarthNet to your `data_dir`, you will have the following folder structure:
 ```
 data_dir
 ├── train   			# training set
@@ -106,13 +110,13 @@ data_dir
 |  |  └── ...
 |  ├── 29SPC      # there is 85 tiles in the train set
 |  └── ...      # with 23816 .nc train minicubes in total
-├── iid    # main track testing samples (4205)
+├── val_chopped    # validation set
 |     └── ... # same as train, but with test samples
-├── ood     # robustness track testing samples (4202)
+├── ood-t_chopped     # ood-t test set
 |     └── ...
-├── extreme    # extreme weather testing samples (3972)
+├── ood-s_chopped    # ood-s test set
 |     └── ...
-└── seasonal   # seasonal testing samples (3880)
+└── ood-st_chopped   # ood-st test set
 |     └── ...
 
 ```
