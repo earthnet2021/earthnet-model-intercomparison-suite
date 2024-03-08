@@ -17,6 +17,6 @@ Requirements are mainly a solid background in PyTorch and a MSc or PhD (the latt
 
 If you are interested and have some questions, feel free to reach out to us by e-mail {vbenson, crobin} (at) bgc-jena (dot) mpg (dot) de !
 
-https://www.mpg.de/21614793/research-software-engineer-machine-learning
+[Apply here!](https://www.mpg.de/21614793/research-software-engineer-machine-learning)
 
 Especially encouraging female machine learners and those from underrepresented groups to apply! Looking forward hearing from you! 
